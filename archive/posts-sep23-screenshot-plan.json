@@ -1,0 +1,584 @@
+[
+  {
+    "id": "schedulign-01",
+    "title": "Day 1: Meet Schedulign",
+    "caption": "Meet Schedulign: the booking page that runs your business.\n\nOne link where clients pick a time, answer your questions and book. No client accounts and no back-and-forth.\n\nIt is for people who sell their time: trainers, stylists, tutors, consultants, therapists, photographers, and anyone else whose work has a length.\n\nEarly access is open and every plan is $0 while it runs. Link in bio: schedulign.com\n\n#schedulign #bookingpage #smallbusinesstips #selfemployed #solopreneur #onlinebooking",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/01-a.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/01-b.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/01-c.jpg"
+    ],
+    "images": [
+      "posts/01-a.jpg",
+      "posts/01-b.jpg",
+      "posts/01-c.jpg"
+    ],
+    "image_brief": [
+      "Cover: navy #303159 background, the Schedulign logo (public/logo-icon.png) top left, headline \"The booking page that runs your business\" in white Geist Bold, a short lime #b9d32c underline under \"runs\".",
+      "Screenshot: the public booking page of the screenshot account (Northlight Studio) on desktop, month calendar with available days and the time list open. Framed on #f7f8f9 with a soft card shadow.",
+      "Screenshot: the same page at 375px phone width, centered on navy, the calendar step."
+    ],
+    "pillar": "launch",
+    "claims": [
+      "Booking page clients use without an account (help: for-your-clients)",
+      "Custom questions on the booking form (PARITY: custom questions)"
+    ]
+  },
+  {
+    "id": "schedulign-02",
+    "title": "Day 2: Write the policy first",
+    "caption": "Write your cancellation policy before the first no-show, not after.\n\nA policy written in a hurry after a missed session reads like a grudge. Written ahead of time, it is just how you work.\n\nThree things worth deciding up front: until when clients can cancel or reschedule, what happens to their payment if they cancel late, and what a no-show means.\n\nIn Schedulign each event has its own cancellation settings. You decide whether clients can cancel or reschedule online and until when, and your written policy shows as a link on the booking page before they book.\n\nTry it free during early access. Link in bio: schedulign.com\n\n#schedulign #bookingpage #smallbusinesstips #selfemployed #solopreneur #onlinebooking",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/02-a.jpg"
+    ],
+    "images": [
+      "posts/02-a.jpg"
+    ],
+    "image_brief": [
+      "Tip card: navy background, the headline in white Geist Bold on two lines, a lime underline under \"before\". Small \"schedulign.com\" in white/60 at the bottom."
+    ],
+    "pillar": "tips",
+    "claims": [
+      "Per-event online cancel and reschedule windows (PARITY: automated cancellation policy, Round 36)",
+      "Written \"Cancellation, No-Show & Refund Policy\" link on the booking page (PARITY: cancellation policy text shown to invitee)"
+    ]
+  },
+  {
+    "id": "schedulign-03",
+    "title": "Day 3: DMs vs one link",
+    "caption": "Before: a dozen messages to book one session. After: one link.\n\n\"Are you free Thursday?\" \"What time?\" \"Is that your time or mine?\" \"How do I pay?\" \"Can I move it?\"\n\nA booking page answers all of it once. The client sees your open times in their own time zone, picks one, answers your questions and gets a confirmation email with a calendar invite and a private link to reschedule or cancel. You get the booking, already confirmed.\n\nEarly access is open and every plan is $0 while it runs. Link in bio: schedulign.com\n\n#schedulign #bookingpage #smallbusinesstips #selfemployed #solopreneur #onlinebooking",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/03-a.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/03-b.jpg"
+    ],
+    "images": [
+      "posts/03-a.jpg",
+      "posts/03-b.jpg"
+    ],
+    "image_brief": [
+      "Before: an illustrated chat thread (not a real screenshot, no real names or app branding) with six short back-and-forth bubbles like the caption quotes, on a light gray background. Label \"Before\" top left in navy.",
+      "After: screenshot of the booking page time list with a time selected and the navy \"Next\" half-button showing. Label \"After\" top left, lime tint pill."
+    ],
+    "pillar": "before-after",
+    "claims": [
+      "Client time zone shown (PARITY: timezone rows)",
+      "Confirmation email with calendar invite and private reschedule/cancel link (help: for-your-clients)"
+    ]
+  },
+  {
+    "id": "schedulign-04",
+    "title": "Day 4: How a client books",
+    "caption": "How a client books you, start to finish.\n\n1. They open your link and pick an event.\n2. They pick a day on the calendar and a time from the list.\n3. They enter their details and answer your questions.\n4. They book, and the confirmation arrives by email.\n\nNo account to create and no password to forget. Swipe through the real screens.\n\nCreate your booking page at schedulign.com (link in bio). Free during early access.\n\n#schedulign #bookingpage #onlinebooking #appointmentbooking #schedulingtool #smallbusinessowner",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/04-a.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/04-b.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/04-c.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/04-d.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/04-e.jpg"
+    ],
+    "images": [
+      "posts/04-a.jpg",
+      "posts/04-b.jpg",
+      "posts/04-c.jpg",
+      "posts/04-d.jpg",
+      "posts/04-e.jpg"
+    ],
+    "image_brief": [
+      "Screenshot, phone width: the landing page listing two or three events as cards.",
+      "Screenshot, phone width: the month calendar with a day picked.",
+      "Screenshot, phone width: the time list with \"Next\".",
+      "Screenshot, phone width: the details step with name, email and one custom question.",
+      "Screenshot, phone width: the \"You're booked\" confirmation page."
+    ],
+    "pillar": "product",
+    "claims": [
+      "Landing page of events, month calendar, time list, details step, confirmation (PARITY: booking page & flow)"
+    ]
+  },
+  {
+    "id": "schedulign-05",
+    "title": "Day 5: Why Schedulign",
+    "caption": "Why I am building Schedulign.\n\nSam here, the founder. I kept seeing the same setup: bookings in a message thread, a waitlist in a group chat, payments across a few apps, and a spreadsheet trying to hold it together.\n\nSchedulign puts that on one page. Clients book and pay without an account, your rules decide what they can change, and people who want a time that is taken can ask to hear when one opens.\n\nIt is in early access now, and the people using it shape what gets built next. If you sell your time, I would like you to try it.\n\nTry it free during early access. Link in bio: schedulign.com\n\n#schedulign #buildinpublic #startupfounder #saas #bootstrapped",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/05-a.jpg"
+    ],
+    "images": [
+      "posts/05-a.jpg"
+    ],
+    "image_brief": [
+      "Photo of Sam (a real, casual photo he supplies), or if none: navy card with \"Why I am building Schedulign\" in white and a small lime dot. No stock photos."
+    ],
+    "pillar": "founder",
+    "claims": [
+      "Openings alerts (help: openings-alerts-and-waitlists)",
+      "No client accounts (PARITY: client accounts REJECT)"
+    ],
+    "verify_before_publish": "Sam to confirm the origin story in his own words before this runs."
+  },
+  {
+    "id": "schedulign-06",
+    "title": "Day 6: Mobile pros: the client gives the address",
+    "caption": "Mobile detailer? Let the client tell you where the car is.\n\nWhen you go to the client, the address is part of the booking. An event can ask the client for their own address at booking, with room for access details like a gate code or where to park.\n\nAdd buffers before and after each booking so drive time never gets booked over.\n\nThe same event settings work for anyone who travels: mobile groomers, trainers who come to the house, photographers on location.\n\nEarly access is open and every plan is $0 while it runs. Link in bio: schedulign.com\n\n#schedulign #mobiledetailing #autodetailing #mobilebusiness #onlinebooking #smallbusinessowner",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/06-a.jpg"
+    ],
+    "images": [
+      "posts/06-a.jpg"
+    ],
+    "image_brief": [
+      "Screenshot, phone width: the details step of an event set to \"Client provides the location\", showing the address field and the access details field. Headline strip on top in navy: \"The client tells you where.\""
+    ],
+    "pillar": "use-case",
+    "claims": [
+      "Client provides the location + access details (PARITY: invitee-provided location)",
+      "Buffers before/after (PARITY: buffers)"
+    ]
+  },
+  {
+    "id": "schedulign-07",
+    "title": "Day 7: Early access is open",
+    "caption": "Early access is open, and every plan is $0 while it runs.\n\nThree plans on one account:\nFree: everything, up to 5 bookings a week, with a small \"Powered by Schedulign\" line on your page.\nPro: no weekly limit and no badge. $20 a month once paid plans launch.\nTeams: Pro for a business with other hosts, plus $10 a month per team member.\n\nAccounts created during early access keep their plan free for one more month after paid plans launch.\n\nLink in bio: schedulign.com\n\n#schedulign #bookingpage #smallbusinesstips #selfemployed #solopreneur #onlinebooking",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/07-a.jpg"
+    ],
+    "images": [
+      "posts/07-a.jpg"
+    ],
+    "image_brief": [
+      "Pricing card: #f7f8f9 background, three white cards side by side (Free, Pro highlighted with a navy ring, Teams), each with its one-line summary. A lime tint pill across the top: \"Every plan $0 during early access\"."
+    ],
+    "pillar": "launch",
+    "claims": [
+      "Plans and prices (src/lib/plans.ts: FREE_PLAN_WEEKLY_BOOKINGS 5, Pro 2000 cents, seat 1000 cents; EARLY_ACCESS true; EARLY_ACCESS_TERMS)"
+    ]
+  },
+  {
+    "id": "schedulign-08",
+    "title": "Day 8: No client accounts",
+    "caption": "Your clients never make an account. Ever.\n\nEvery booking comes with one private link in the confirmation email. From it, a client can reschedule or cancel inside the windows you set, add the session to their calendar, and see their booking.\n\nLost the email? The Find my bookings page sends a link to every upcoming booking for that address.\n\nFewer passwords for them, fewer \"how do I log in\" messages for you.\n\nTry it free during early access. Link in bio: schedulign.com\n\n#schedulign #bookingpage #onlinebooking #appointmentbooking #schedulingtool #smallbusinessowner",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/08-a.jpg"
+    ],
+    "images": [
+      "posts/08-a.jpg"
+    ],
+    "image_brief": [
+      "Screenshot, phone width: the manage page reached from the booking link, showing the session and the reschedule and cancel buttons. Caption strip: \"One link. No password.\""
+    ],
+    "pillar": "feature",
+    "claims": [
+      "Manage-token link to reschedule/cancel (PARITY: reschedule/cancel from confirmation)",
+      "Find my bookings (help: for-your-clients)"
+    ]
+  },
+  {
+    "id": "schedulign-09",
+    "title": "Day 9: Protect the gaps",
+    "caption": "Back-to-back sessions look efficient until you are running late for all of them.\n\nBuild the gap in. Time to reset a room, write notes, drive across town, or eat something.\n\nIn Schedulign every event can keep minutes free before and after each booking, and cap how many bookings it takes in a day, a week or a month. The booking page only offers what fits.\n\nEarly access is open and every plan is $0 while it runs. Link in bio: schedulign.com\n\n#schedulign #bookingpage #smallbusinesstips #selfemployed #solopreneur #onlinebooking",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/09-a.jpg"
+    ],
+    "images": [
+      "posts/09-a.jpg"
+    ],
+    "image_brief": [
+      "Tip card: navy background, one sentence in white: \"Build the gap in.\" Beneath it a simple timeline bar: a session block, a lime-outlined buffer block, a session block."
+    ],
+    "pillar": "tips",
+    "claims": [
+      "Buffers (PARITY: buffers)",
+      "Daily/weekly/monthly caps (PARITY: max per day, monthly booking cap)"
+    ]
+  },
+  {
+    "id": "schedulign-10",
+    "title": "Day 10: Openings alerts",
+    "caption": "Before: \"Anything open Thursday?\" After: they get an email when something opens.\n\nWhen your week is full, clients can ask to hear about new openings, from a bell under your calendar. They can limit it to certain dates and times, and choose how long to keep hearing.\n\nWhen a time opens inside their window, they get an email. If a day is fully booked, they can join that day's waitlist, and the first person in line gets the freed time held for them for two hours.\n\nYou decide per event whether alerts go out automatically or only when you send them.\n\nCreate your booking page at schedulign.com (link in bio). Free during early access.\n\n#schedulign #bookingpage #onlinebooking #appointmentbooking #schedulingtool #smallbusinessowner",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/10-a.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/10-b.jpg"
+    ],
+    "images": [
+      "posts/10-a.jpg",
+      "posts/10-b.jpg"
+    ],
+    "image_brief": [
+      "Before: an illustrated message bubble \"Anything open Thursday?\" with a sad-gray \"Sorry, full\" reply. Label \"Before\".",
+      "After: screenshot of the openings notifications dialog from the bell at the calendar's bottom right, with the time window fields visible. Label \"After\"."
+    ],
+    "pillar": "before-after",
+    "claims": [
+      "Openings alerts with window and period (PARITY rows 123, 218; help: openings-alerts-and-waitlists)",
+      "Day waitlist with 2-hour hold (PARITY row 122)",
+      "Automatic or host-sent (help)"
+    ]
+  },
+  {
+    "id": "schedulign-11",
+    "title": "Day 11: After they book",
+    "caption": "What your client gets the moment they book.\n\nA confirmation page with the session, the place or the video link, and the payment state.\nA confirmation email that is also a calendar invitation. Gmail, Apple Calendar and Outlook add it, and later changes update the same entry.\nA reminder before the session, when the event has reminders on.\nA follow-up email afterwards, if you switch it on.\n\nEvery email carries your business name at the top.\n\nTry it free during early access. Link in bio: schedulign.com\n\n#schedulign #bookingpage #onlinebooking #appointmentbooking #schedulingtool #smallbusinessowner",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/11-a.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/11-b.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/11-c.jpg"
+    ],
+    "images": [
+      "posts/11-a.jpg",
+      "posts/11-b.jpg",
+      "posts/11-c.jpg"
+    ],
+    "image_brief": [
+      "Screenshot: the \"You're booked\" confirmation page (phone width).",
+      "Screenshot: the confirmation email in a mail client, business name at the top, Add to calendar buttons visible. Use a test inbox; no real client data.",
+      "Screenshot: the reminder email."
+    ],
+    "pillar": "product",
+    "claims": [
+      "Confirmation page, calendar-invitation email, reminders, follow-up (help: for-your-clients; PARITY: follow-up emails)",
+      "Branded emails with business name (PARITY: branded HTML emails)"
+    ]
+  },
+  {
+    "id": "schedulign-12",
+    "title": "Day 12: Phone first",
+    "caption": "Most of your clients will book you from a phone.\n\nSo every change to Schedulign is checked at phone width before it ships, and every release runs through a few hundred automated checks.\n\nWhen something still slips through, every booking page has a Report a problem link in its footer, and the dashboard has one in its Help menu. Those reports come straight to me.\n\nEarly access means your feedback changes the product. Try it and tell me what is in your way.\n\nEarly access is open and every plan is $0 while it runs. Link in bio: schedulign.com\n\n#schedulign #buildinpublic #startupfounder #saas #bootstrapped",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/12-a.jpg"
+    ],
+    "images": [
+      "posts/12-a.jpg"
+    ],
+    "image_brief": [
+      "Photo or screen: a phone in hand showing the booking page calendar. If no photo, a phone-frame mock on navy with a real 375px screenshot inside. Small lime label \"Checked at 375px\"."
+    ],
+    "pillar": "founder",
+    "claims": [
+      "Report a problem on booking pages and dashboard (PARITY: report a problem)",
+      "375px verification + automated checks before deploy (havn-design Verify; STATUS smoke 396/396, vitest 609)"
+    ],
+    "verify_before_publish": "Sam to approve the first-person wording."
+  },
+  {
+    "id": "schedulign-13",
+    "title": "Day 13: Tutors: group prices",
+    "caption": "Tutor? Price one-on-one and a group of three differently.\n\nSet the lengths you offer and the group sizes you take, then give each combination its own price. A 60-minute session for one, a 90-minute session for three, or no listed price at all if you would rather settle it yourself.\n\nThe client picks the length and group size, and the total updates before they book. Their participants' names come with the booking.\n\nCreate your booking page at schedulign.com (link in bio). Free during early access.\n\n#schedulign #tutor #tutoringbusiness #privatetutor #onlinebooking #selfemployed",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/13-a.jpg"
+    ],
+    "images": [
+      "posts/13-a.jpg"
+    ],
+    "image_brief": [
+      "Screenshot: the pricing grid in the event editor (lengths down the side, group sizes across) with a few prices filled. Beside it, the booking page left panel showing Duration and Participants selects and the total."
+    ],
+    "pillar": "use-case",
+    "claims": [
+      "Price per length and group size (PARITY: duration x price, superior per group size)",
+      "Lengths without prices (PARITY row 66)",
+      "Named participants (PARITY: add guests)"
+    ]
+  },
+  {
+    "id": "schedulign-14",
+    "title": "Day 14: See the demo page",
+    "caption": "See it before you sign up: the demo page.\n\nThe demo page is a real Schedulign booking page. Look around, or take the tour, which walks you through the calendar, the times, the details step and the policy line on the page itself.\n\nNothing is booked unless you press Book. Find it on the homepage under See the demo page.\n\nLink in bio: schedulign.com\n\n#schedulign #bookingpage #onlinebooking #appointmentbooking #schedulingtool #smallbusinessowner",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/14-a.jpg"
+    ],
+    "images": [
+      "posts/14-a.jpg"
+    ],
+    "image_brief": [
+      "Screenshot: the demo page with the tour running, one element in the spotlight and the caption card visible. Top strip in navy: \"See the demo page\"."
+    ],
+    "pillar": "launch",
+    "claims": [
+      "Demo page with guided tour (PARITY: the demo page row, Round 22 R1 / Round 24 R1)"
+    ],
+    "verify_before_publish": "The demo organization is named \"Ridgeline Coaching\". Rename it or crop the name out of the screenshot (never-\"coach\" rule in brand-authored assets)."
+  },
+  {
+    "id": "schedulign-15",
+    "title": "Day 15: Online or offline payment",
+    "caption": "Paid online or offline. You choose, per event.\n\nTake card payments through your own Stripe account, or keep being paid the way you already are, by cash, bank transfer or a payment app, with your payment instructions shown at booking. One event can take cards and the next can be paid offline.\n\nCard payments carry Stripe's standard processing fee. Schedulign adds nothing on top.\n\nEarly access is open and every plan is $0 while it runs. Link in bio: schedulign.com\n\n#schedulign #bookingpage #smallbusinesstips #selfemployed #solopreneur #onlinebooking",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/15-a.jpg"
+    ],
+    "images": [
+      "posts/15-a.jpg"
+    ],
+    "image_brief": [
+      "Screenshot: the booking page details step showing the payment choice (Pay online / Pay offline) with offline instructions visible. A second small inset of the event editor Payment section."
+    ],
+    "pillar": "feature",
+    "claims": [
+      "Online through own Stripe or offline per event (homepage Money story; PARITY: per-event payment mode, payment terms free-text)",
+      "No Schedulign fee on top of Stripe (homepage pricing footnote)"
+    ],
+    "verify_before_publish": "Confirm Stripe Connect is live in production (Round 53 was still settling the live platform account) before this post runs; if not, move it later in the queue."
+  },
+  {
+    "id": "schedulign-16",
+    "title": "Day 16: Peak pricing",
+    "caption": "Your Saturday morning is not worth the same as your Tuesday afternoon.\n\nIf some hours always fill first, price them that way. In Schedulign an event can raise or lower its price for set days and times, by a percentage or an amount.\n\nClients see it before they pick: peak times are shaded on the booking page with their price and a label, so nobody meets a surprise total at the end.\n\nTry it free during early access. Link in bio: schedulign.com\n\n#schedulign #bookingpage #smallbusinesstips #selfemployed #solopreneur #onlinebooking",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/16-a.jpg"
+    ],
+    "images": [
+      "posts/16-a.jpg"
+    ],
+    "image_brief": [
+      "Screenshot: the booking page time list with some times shaded amber and labeled Peak, the legend visible underneath."
+    ],
+    "pillar": "tips",
+    "claims": [
+      "Peak/off-peak pricing by time window, shaded with legend (PARITY rows 33, 254)"
+    ]
+  },
+  {
+    "id": "schedulign-17",
+    "title": "Day 17: Waivers signed at booking",
+    "caption": "Before: chasing a signed waiver by email. After: it is signed at booking.\n\nAttach a waiver or agreement to any event. The client signs it on the booking form, by typed signature or a checkbox, and the exact text they agreed to is kept with the booking, even if you edit the document later.\n\nFor a group booking, the confirmation carries a link each participant can use to sign for themselves.\n\nCreate your booking page at schedulign.com (link in bio). Free during early access.\n\n#schedulign #personaltrainer #fitnessbusiness #trainerlife #onlinebooking #selfemployed",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/17-a.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/17-b.jpg"
+    ],
+    "images": [
+      "posts/17-a.jpg",
+      "posts/17-b.jpg"
+    ],
+    "image_brief": [
+      "Before: an illustrated inbox with three \"Re: waiver??\" follow-up emails. Label \"Before\".",
+      "After: screenshot of the waiver signing dialog on the booking form with a typed signature. Label \"After\"."
+    ],
+    "pillar": "before-after",
+    "claims": [
+      "Native waiver signing, typed or checkbox, text snapshotted (PARITY rows 51, 257, 274)",
+      "Per-participant signing link (PARITY row 257, Round 34)"
+    ]
+  },
+  {
+    "id": "schedulign-18",
+    "title": "Day 18: Your booking form",
+    "caption": "Ask what you actually need to know before the session.\n\nEvery event has its own booking form. Add short answers, dropdowns, checkbox lists, phone numbers and agreements, and mark the ones that are required.\n\nClients also pick how they would like to be reached about the session, by phone, email or WhatsApp, so you are not guessing which one they check.\n\nEarly access is open and every plan is $0 while it runs. Link in bio: schedulign.com\n\n#schedulign #bookingpage #onlinebooking #appointmentbooking #schedulingtool #smallbusinessowner",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/18-a.jpg"
+    ],
+    "images": [
+      "posts/18-a.jpg"
+    ],
+    "image_brief": [
+      "Screenshot: the details step with three custom questions (a dropdown, a checkbox list, a phone number) and the preferred-contact choice. Headline strip: \"Your questions, per event.\""
+    ],
+    "pillar": "product",
+    "claims": [
+      "Question types incl. checkboxes and phone (PARITY row 46)",
+      "Preferred event contact phone/email/WhatsApp (PARITY row 52, Round 36)"
+    ]
+  },
+  {
+    "id": "schedulign-19",
+    "title": "Day 19: Why Free is the whole product",
+    "caption": "Why the Free plan is the whole product, not a trial.\n\nFree includes everything Pro does: payments, waivers, cancellation rules, the widget, QR codes. The difference is volume. Free takes up to 5 bookings a week and shows a small \"Powered by Schedulign\" line; Pro lifts both.\n\nIf you are starting out, you should not have to pay to find out whether a booking page works for you. When you are booking more than five a week, Pro is there.\n\nTry it free during early access. Link in bio: schedulign.com\n\n#schedulign #buildinpublic #startupfounder #saas #bootstrapped",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/19-a.jpg"
+    ],
+    "images": [
+      "posts/19-a.jpg"
+    ],
+    "image_brief": [
+      "Simple type card: #f7f8f9 background, \"Free = everything, up to 5 bookings a week\" in navy Geist Bold, \"Pro = no limit, no badge\" beneath in gray-600. Lime dot bullet on each line."
+    ],
+    "pillar": "founder",
+    "claims": [
+      "Free = everything in Pro up to 5/week + badge (src/lib/plans.ts; homepage plan cards)"
+    ],
+    "verify_before_publish": "Sam to approve the first-person framing."
+  },
+  {
+    "id": "schedulign-20",
+    "title": "Day 20: Photographers: location on your terms",
+    "caption": "Photographer? Decide when the location is shared.\n\nShare the address on your page, or only after the client books. Offer a list of spots for the client to pick from, confirm one yourself after booking, or ask the client for theirs. Each place can carry its own notes, like parking or where to meet, sent only after booking.\n\nVideo calls and phone calls work too, with the link or number shared after booking.\n\nCreate your booking page at schedulign.com (link in bio). Free during early access.\n\n#schedulign #photographybusiness #photographer #portraitphotographer #onlinebooking #bookingpage",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/20-a.jpg"
+    ],
+    "images": [
+      "posts/20-a.jpg"
+    ],
+    "image_brief": [
+      "Screenshot: the event editor Location section showing the radio list of location modes, with \"Client picks from my list\" selected and two places listed."
+    ],
+    "pillar": "use-case",
+    "claims": [
+      "Location modes radio list, hide until booked, per-place notes (PARITY rows 17, 30, 256, 276)",
+      "Video and phone location kinds (PARITY row 30)"
+    ]
+  },
+  {
+    "id": "schedulign-21",
+    "title": "Day 21: Three plans, one account",
+    "caption": "Three plans, one account, and you can switch anytime.\n\nStart on Free, move to Pro when you pass 5 bookings a week, and switch to Teams when someone joins you. It is the same account and the same login, and your page stays as it is. Switch in Settings, under Plan & billing.\n\nDuring early access every plan is $0 and a switch applies at once.\n\nLink in bio: schedulign.com\n\n#schedulign #bookingpage #smallbusinesstips #selfemployed #solopreneur #onlinebooking",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/21-a.jpg"
+    ],
+    "images": [
+      "posts/21-a.jpg"
+    ],
+    "image_brief": [
+      "Diagram card: three navy-outlined pills in a row, Free, Pro, Teams, joined by a lime line with arrows both ways. Caption line beneath: \"Same account. Same login.\""
+    ],
+    "pillar": "launch",
+    "claims": [
+      "Switch in place Free/Pro/Teams from Settings > Plan & billing (help: plans-and-billing; PARITY row 194)"
+    ]
+  },
+  {
+    "id": "schedulign-22",
+    "title": "Day 22: Requests you approve",
+    "caption": "Want to say yes before a booking is confirmed? You can.\n\nSet an event to Bookings by request only and every booking arrives as a request. The client picks how soon they need an answer, you approve or decline from Bookings, and nothing is charged until you approve.\n\nYou can also let clients request a time you have not listed, so a good fit is never turned away by the calendar.\n\nEarly access is open and every plan is $0 while it runs. Link in bio: schedulign.com\n\n#schedulign #consultant #consultingbusiness #freelancelife #onlinebooking #selfemployed",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/22-a.jpg"
+    ],
+    "images": [
+      "posts/22-a.jpg"
+    ],
+    "image_brief": [
+      "Screenshot: the Bookings tab Requests view with one request row showing its answer deadline and the Approve and Decline buttons. Use seeded, fictional client names."
+    ],
+    "pillar": "feature",
+    "claims": [
+      "Bookings by request only, answer deadline, approve/decline, nothing charged until approval (help: requests-and-approvals)",
+      "Unlisted-time requests (PARITY: request an unlisted time)"
+    ]
+  },
+  {
+    "id": "schedulign-23",
+    "title": "Day 23: Regulars first",
+    "caption": "Give your regulars first pick of your calendar.\n\nYour best clients should not have to race strangers for your best times. Put them in a client group and let that group book further ahead than everyone else.\n\nA group can also book instantly on an event where others send a request, or pay offline on an event that otherwise takes cards. They unlock it by entering their email on your calendar; no account needed.\n\nTry it free during early access. Link in bio: schedulign.com\n\n#schedulign #personaltrainer #fitnessbusiness #trainerlife #onlinebooking #selfemployed",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/23-a.jpg"
+    ],
+    "images": [
+      "posts/23-a.jpg"
+    ],
+    "image_brief": [
+      "Tip card: navy background, \"Regulars first.\" in white, below it a two-row calendar strip where the first row (lime) opens earlier than the second (white/40). Small label \"Priority access\"."
+    ],
+    "pillar": "tips",
+    "claims": [
+      "Priority access for client groups, instant booking perk, offline payment perk (PARITY rows 258, 264)"
+    ]
+  },
+  {
+    "id": "schedulign-24",
+    "title": "Day 24: Link in bio that books",
+    "caption": "Before: a link in bio that says \"DM to book\". After: a link that books.\n\nPut your Schedulign link in your bio and clients book straight from Instagram. Every event also has its own link.\n\nThe same page can sit on your website as a booking widget, and a QR code puts it on a card, a flyer or the front desk.\n\nCreate your booking page at schedulign.com (link in bio). Free during early access.\n\n#schedulign #hairstylist #salonowner #behindthechair #onlinebooking #bookingpage",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/24-a.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/24-b.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/24-c.jpg"
+    ],
+    "images": [
+      "posts/24-a.jpg",
+      "posts/24-b.jpg",
+      "posts/24-c.jpg"
+    ],
+    "image_brief": [
+      "Before: an illustrated Instagram-style profile header (generic, no real account) with the bio \"DM to book\". Label \"Before\".",
+      "After: the same header with a schedulign.com/northlight-studio link, and beside it a phone showing that booking page. Label \"After\".",
+      "Screenshot: the QR code dialog and the Add to website dialog side by side."
+    ],
+    "pillar": "before-after",
+    "claims": [
+      "Page link and per-event links (help: branding-link-and-widget)",
+      "Website widget and QR codes (PARITY: inline embed, popup widget, QR dialog)"
+    ]
+  },
+  {
+    "id": "schedulign-25",
+    "title": "Day 25: One page for the whole team",
+    "caption": "Run a studio? One booking page for the whole team.\n\nOn the Teams plan you invite hosts by email. Each has their own account, hours and calendar, and clients see one page with every host's events.\n\nYou set up the events and decide, option by option, what each host manages. Every permission starts off until you turn it on, and client contact details reach a host only when you say so.\n\nEarly access is open and every plan is $0 while it runs. Link in bio: schedulign.com\n\n#schedulign #smallbusinessowner #teammanagement #onlinebooking #bookingpage #studioowner",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/25-a.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/25-b.jpg"
+    ],
+    "images": [
+      "posts/25-a.jpg",
+      "posts/25-b.jpg"
+    ],
+    "image_brief": [
+      "Screenshot: a team landing page listing events with each host named on its card.",
+      "Screenshot: the Team tab with one member's permissions list, a few switched on and most off."
+    ],
+    "pillar": "product",
+    "claims": [
+      "Teams: invite by email, own accounts, one page, per-host permissions off by default, contact details as a permission (homepage Your team story; PARITY rows 54, 215, 273)"
+    ]
+  },
+  {
+    "id": "schedulign-26",
+    "title": "Day 26: Tell me what is missing",
+    "caption": "What should Schedulign do next? Tell me.\n\nEarly access is for exactly this. If something on your booking page is in your way, or something you need is not there yet, use Report a problem on the page or email admin@schedulign.com. I read every one.\n\nA lot of what is in Schedulign today, from openings alerts to per-event cancellation rules, started as feedback from someone using it.\n\nTry it free during early access. Link in bio: schedulign.com\n\n#schedulign #buildinpublic #startupfounder #saas #bootstrapped",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/26-a.jpg"
+    ],
+    "images": [
+      "posts/26-a.jpg"
+    ],
+    "image_brief": [
+      "Photo of Sam at his desk, or a navy card with \"Tell me what is missing.\" in white and admin@schedulign.com in lime-tint text beneath."
+    ],
+    "pillar": "founder",
+    "claims": [
+      "Report a problem (PARITY: report a problem)",
+      "admin@schedulign.com (homepage footer Contact)"
+    ],
+    "verify_before_publish": "Sam to approve; \"started as feedback\" is accurate per PARITY history (tester-driven rounds) but is his story to tell."
+  },
+  {
+    "id": "schedulign-27",
+    "title": "Day 27: Consultants: private events",
+    "caption": "Consultant? Keep some sessions off your public page.\n\nHide an event from your page and share its direct link with the clients it is for. Or require an access code: until the right code is entered, the event shows nothing but its name.\n\nThe rest of your page stays open to everyone else.\n\nCreate your booking page at schedulign.com (link in bio). Free during early access.\n\n#schedulign #consultant #consultingbusiness #freelancelife #onlinebooking #selfemployed",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/27-a.jpg"
+    ],
+    "images": [
+      "posts/27-a.jpg"
+    ],
+    "image_brief": [
+      "Screenshot: an event page locked by access code, showing only the event name, the host's hint and the code field. Headline strip: \"Private by code.\""
+    ],
+    "pillar": "use-case",
+    "claims": [
+      "Hidden events bookable by direct link (PARITY: secret/hidden event types)",
+      "Per-event access code (PARITY row 26)"
+    ]
+  },
+  {
+    "id": "schedulign-28",
+    "title": "Day 28: Live in minutes",
+    "caption": "Your booking page, live in minutes.\n\n1. Create your account. Your page exists the moment you sign up.\n2. Create an event: a consultation, a class, a treatment, anything with a length. Set its lengths, prices, hours and policies.\n3. Switch it on and share the link.\n\nEarly access is open and every plan is $0 while it runs.\n\nLink in bio: schedulign.com\n\n#schedulign #bookingpage #smallbusinesstips #selfemployed #solopreneur #onlinebooking",
+    "media": [
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/28-a.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/28-b.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/28-c.jpg",
+      "https://raw.githubusercontent.com/samiftikhar-dev/schedulign-instagram/main/posts/28-d.jpg"
+    ],
+    "images": [
+      "posts/28-a.jpg",
+      "posts/28-b.jpg",
+      "posts/28-c.jpg",
+      "posts/28-d.jpg"
+    ],
+    "image_brief": [
+      "Cover: navy background, \"Live in minutes\" in white Geist Bold, one lime underline.",
+      "Screenshot: the sign-up form.",
+      "Screenshot: the event editor with the On switch.",
+      "Screenshot: My link with the QR code."
+    ],
+    "pillar": "launch",
+    "claims": [
+      "Three-step setup (homepage Live in minutes; help: getting-started)"
+    ]
+  }
+]

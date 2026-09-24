@@ -1,0 +1,47 @@
+name: Render posts
+
+# Whenever posts or the drawing engine change, lint every post against the
+# copy rules and the live help center, draw the slides, and commit the images,
+# the queue (posts.json) and UPNEXT.md. A post that fails lint stops the run,
+# so nothing untrue reaches the queue.
+on:
+  push:
+    branches: [main]
+    paths: ['content/**', 'art/**', 'lib/**', 'render.mjs', 'package.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: node render.mjs
+
+      - name: Commit the drawn slides
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images posts.json UPNEXT.md render-cache.json
+          if ! git diff --cached --quiet; then
+            git commit -qm "Render posts"
+            git pull -q --rebase
+            git push -q
+          fi

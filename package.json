@@ -1,0 +1,14 @@
+{
+  "name": "schedulign-instagram",
+  "private": true,
+  "type": "module",
+  "description": "Schedulign's Instagram: posts drawn in code, rendered to JPEG and published one a day.",
+  "scripts": {
+    "render": "node render.mjs",
+    "lint": "node -e \"import('./lib/posts.mjs').then(async m=>{const p=await m.loadPosts();const l=await (await import('./lib/lint.mjs')).lint(p);console.log(l.length?l.join('\\n'):'All '+p.length+' posts pass.');process.exit(l.length?1:0)})\"",
+    "check": "node publish.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}
