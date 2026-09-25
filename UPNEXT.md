@@ -1,12 +1,63 @@
 # Up next
 
-One post a day, about 11:30am Pacific, in this order. 0 of 14 posted so far.
+One post a day, about 11:30am Pacific, in this order. 0 of 21 posted so far.
+
+Waiting, by series: Intro:3 · Spotlights:10 · Under the hood:2 · Episodes:2 · Before/after and tips:4.
 
 To stop a post, set `hold: true` in its file under `content/posts`, or delete the file.
 
-## 1. Location: every house is the blue one
+## 1. Hello: meet your booking page
 
-`001-location` · spotlight
+`015-hello` · Meet Schedulign
+
+<img src="images/015-hello/1.jpg" width="180"> <img src="images/015-hello/2.jpg" width="180"> <img src="images/015-hello/3.jpg" width="180"> <img src="images/015-hello/4.jpg" width="180"> <img src="images/015-hello/5.jpg" width="180">
+
+> Hi. Meet Schedulign: the booking page that runs your business.
+> 
+> It is for people who sell their time: stylists, trainers, tutors, photographers, detailers, consultants, and anyone else whose work comes in sessions. Clients pick a time, answer your questions and book from one link, without making an account. You set the rules per event: hours, place, price, forms, reminders and cancellations.
+> 
+> This account follows a few of those people at work, shows how the features help, and now and then opens the hood. Stick around.
+> 
+> Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
+> 
+> #schedulign #bookingpage #smallbusinessowner #selfemployed #solopreneur
+
+## 2. How a booking works, start to finish
+
+`016-how-a-booking-works` · Meet Schedulign
+
+<img src="images/016-how-a-booking-works/1.jpg" width="180"> <img src="images/016-how-a-booking-works/2.jpg" width="180"> <img src="images/016-how-a-booking-works/3.jpg" width="180"> <img src="images/016-how-a-booking-works/4.jpg" width="180"> <img src="images/016-how-a-booking-works/5.jpg" width="180">
+
+> How a booking works on Schedulign, start to finish.
+> 
+> 1. The client opens your link and picks a day and a time.
+> 2. They answer your questions, sign your waiver if the event has one, and choose how to pay.
+> 3. The confirmation email is a calendar invitation from your business, so the session lands in their calendar.
+> 4. If plans change, they cancel or reschedule from their booking link, inside the windows you set for that event. The calendar entry updates itself.
+> 
+> No accounts, no back-and-forth.
+> 
+> Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
+> 
+> #schedulign #bookingpage #onlinebooking #smallbusinesstips #selfemployed
+
+## 3. Meet the regulars
+
+`017-meet-the-cast` · Meet Schedulign
+
+<img src="images/017-meet-the-cast/1.jpg" width="180"> <img src="images/017-meet-the-cast/2.jpg" width="180"> <img src="images/017-meet-the-cast/3.jpg" width="180"> <img src="images/017-meet-the-cast/4.jpg" width="180"> <img src="images/017-meet-the-cast/5.jpg" width="180"> <img src="images/017-meet-the-cast/6.jpg" width="180">
+
+> Meet the regulars you will see around here.
+> 
+> Maya cuts hair. Jonah details cars in your driveway. Dev trains people before most people are awake. Rosa tutors math and never runs out of pencils. Priya photographs families and chases golden hour. Each of them sells their time, and Slot, the booking page, keeps the calendar.
+> 
+> Swipe to say hi. Who is most like you?
+> 
+> #schedulign #smallbusinessowner #selfemployed #solopreneur #bookingpage
+
+## 4. Location: every house is the blue one
+
+`001-location` · Feature spotlight
 
 <img src="images/001-location/1.jpg" width="180"> <img src="images/001-location/2.jpg" width="180"> <img src="images/001-location/3.jpg" width="180"> <img src="images/001-location/4.jpg" width="180">
 
@@ -18,23 +69,44 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
 
-## 2. DM to book: the fourteen-message haircut
+## 5. Under the hood: when someone cancels
 
-`002-dm-to-book` · before-after
+`018-hood-waitlist` · Under the hood
 
-<img src="images/002-dm-to-book/1.jpg" width="180"> <img src="images/002-dm-to-book/2.jpg" width="180"> <img src="images/002-dm-to-book/3.jpg" width="180"> <img src="images/002-dm-to-book/4.jpg" width="180"> <img src="images/002-dm-to-book/5.jpg" width="180">
+<img src="images/018-hood-waitlist/1.jpg" width="180"> <img src="images/018-hood-waitlist/2.jpg" width="180"> <img src="images/018-hood-waitlist/3.jpg" width="180"> <img src="images/018-hood-waitlist/4.jpg" width="180"> <img src="images/018-hood-waitlist/5.jpg" width="180">
 
-> Booking one haircut should not take fourteen messages and an empty chair on Thursday.
+> What actually happens when a booked time frees up.
 > 
-> With a booking page, clients pick an open time, answer your questions and get a confirmation by email. You get your evenings back.
+> 1. The first person on that day's waitlist has the time held for two hours, with a link to claim it. While it is held, nobody else can book it.
+> 2. If they do not claim it, the hold passes to the next person in line.
+> 3. If alerts are automatic for the event, everyone waiting for a time in that window gets an email as soon as it opens.
+> 4. If you cancel a booking yourself, nothing goes out automatically. The time is held for the first in line, and you choose when to send a new openings notification.
+> 
+> Openings and waitlist alerts are switched on per event.
 > 
 > Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
 > 
-> #schedulign #hairstylist #salonowner #behindthechair #bookingpage
+> #schedulign #bookingpage #waitlist #smallbusinesstips #selfemployed
 
-## 3. Waivers: signed before they book
+## 6. Jonah’s first month: the first booking
 
-`003-waivers` · spotlight
+`020-jonah-first-booking` · Jonah’s first month
+
+<img src="images/020-jonah-first-booking/1.jpg" width="180"> <img src="images/020-jonah-first-booking/2.jpg" width="180"> <img src="images/020-jonah-first-booking/3.jpg" width="180"> <img src="images/020-jonah-first-booking/4.jpg" width="180">
+
+> New van, new business, zero clients.
+> 
+> Jonah put his booking link in his bio and went to bed. The first booking came in over breakfast: a day, a time and an address, without a single message back and forth.
+> 
+> Jonah's first month, one moment at a time.
+> 
+> Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
+> 
+> #schedulign #mobiledetailing #newbusiness #smallbusinessjourney #bookingpage
+
+## 7. Waivers: signed before they book
+
+`003-waivers` · Feature spotlight
 
 <img src="images/003-waivers/1.jpg" width="180"> <img src="images/003-waivers/2.jpg" width="180"> <img src="images/003-waivers/3.jpg" width="180"> <img src="images/003-waivers/4.jpg" width="180">
 
@@ -46,25 +118,39 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #personaltrainer #fitnessbusiness #gymowner #bookingpage
 
-## 4. Tip: what a no-show really costs
+## 8. DM to book: the fourteen-message haircut
 
-`004-no-show-math` · tip
+`002-dm-to-book` · Before/after and tips
 
-<img src="images/004-no-show-math/1.jpg" width="180"> <img src="images/004-no-show-math/2.jpg" width="180"> <img src="images/004-no-show-math/3.jpg" width="180"> <img src="images/004-no-show-math/4.jpg" width="180"> <img src="images/004-no-show-math/5.jpg" width="180">
+<img src="images/002-dm-to-book/1.jpg" width="180"> <img src="images/002-dm-to-book/2.jpg" width="180"> <img src="images/002-dm-to-book/3.jpg" width="180"> <img src="images/002-dm-to-book/4.jpg" width="180"> <img src="images/002-dm-to-book/5.jpg" width="180">
 
-> A no-show costs more than one session.
+> Booking one haircut should not take fourteen messages and an empty chair on Thursday.
 > 
-> Two a month at $60 is $1,440 a year. Work out your own number, then write your cancellation policy before the next one, not after.
+> With a booking page, clients pick an open time, answer your questions and get a confirmation by email. You get your evenings back.
 > 
-> Each event has its own cancellation settings: whether clients can cancel or reschedule online, and until when. Your written policy shows as a link clients accept before they book.
+> Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
 > 
-> Save this for the next time someone ghosts your 6am.
-> 
-> #schedulign #personaltrainer #fitnessbusiness #smallbusinesstips #selfemployed
+> #schedulign #hairstylist #salonowner #behindthechair #bookingpage
 
-## 5. Client perks: regulars first
+## 9. Jonah’s first month: the rainy Tuesday
 
-`005-client-perks` · spotlight
+`021-jonah-rain` · Jonah’s first month
+
+<img src="images/021-jonah-rain/1.jpg" width="180"> <img src="images/021-jonah-rain/2.jpg" width="180"> <img src="images/021-jonah-rain/3.jpg" width="180"> <img src="images/021-jonah-rain/4.jpg" width="180">
+
+> Rain moved four bookings, and Jonah did not make four phone calls.
+> 
+> When an event lets clients reschedule online, they move the booking themselves from the link in their confirmation, up to the window you set. They get a New time email and their calendar entry moves with it.
+> 
+> Jonah's first month, one moment at a time.
+> 
+> Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
+> 
+> #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
+
+## 10. Client perks: regulars first
+
+`005-client-perks` · Feature spotlight
 
 <img src="images/005-client-perks/1.jpg" width="180"> <img src="images/005-client-perks/2.jpg" width="180"> <img src="images/005-client-perks/3.jpg" width="180"> <img src="images/005-client-perks/4.jpg" width="180">
 
@@ -76,9 +162,9 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #photographybusiness #minisessions #photographer #bookingpage
 
-## 6. Requests: say yes before it is booked
+## 11. Requests: say yes before it is booked
 
-`006-requests` · spotlight
+`006-requests` · Feature spotlight
 
 <img src="images/006-requests/1.jpg" width="180"> <img src="images/006-requests/2.jpg" width="180"> <img src="images/006-requests/3.jpg" width="180"> <img src="images/006-requests/4.jpg" width="180">
 
@@ -90,9 +176,25 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #tutor #tutoringbusiness #privatetutor #bookingpage
 
-## 7. Waitlists: a freed time, held for them
+## 12. Under the hood: which times clients see
 
-`007-waitlist` · spotlight
+`019-hood-which-times-show` · Under the hood
+
+<img src="images/019-hood-which-times-show/1.jpg" width="180"> <img src="images/019-hood-which-times-show/2.jpg" width="180"> <img src="images/019-hood-which-times-show/3.jpg" width="180"> <img src="images/019-hood-which-times-show/4.jpg" width="180"> <img src="images/019-hood-which-times-show/5.jpg" width="180">
+
+> Your booking page never guesses which times to show.
+> 
+> A time is offered only when everything agrees: the event's hours, any date-specific hours and days off, the bookings you already have and the buffers around them, your minimum notice, how far ahead clients can book, and any booking limits you set. A booking made through Schedulign blocks its time on every event you offer.
+> 
+> What is left is your page.
+> 
+> Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
+> 
+> #schedulign #bookingpage #scheduling #smallbusinesstips #selfemployed
+
+## 13. Waitlists: a freed time, held for them
+
+`007-waitlist` · Feature spotlight
 
 <img src="images/007-waitlist/1.jpg" width="180"> <img src="images/007-waitlist/2.jpg" width="180"> <img src="images/007-waitlist/3.jpg" width="180"> <img src="images/007-waitlist/4.jpg" width="180">
 
@@ -104,9 +206,9 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #hairstylist #salonowner #behindthechair #bookingpage
 
-## 8. Access details: the gate code comes with the booking
+## 14. Access details: the gate code comes with the booking
 
-`008-access-details` · spotlight
+`008-access-details` · Feature spotlight
 
 <img src="images/008-access-details/1.jpg" width="180"> <img src="images/008-access-details/2.jpg" width="180"> <img src="images/008-access-details/3.jpg" width="180"> <img src="images/008-access-details/4.jpg" width="180">
 
@@ -117,31 +219,3 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
 > 
 > #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
-
-## 9. Peak pricing: Saturday is not Tuesday
-
-`009-peak-pricing` · spotlight
-
-<img src="images/009-peak-pricing/1.jpg" width="180"> <img src="images/009-peak-pricing/2.jpg" width="180"> <img src="images/009-peak-pricing/3.jpg" width="180"> <img src="images/009-peak-pricing/4.jpg" width="180">
-
-> Your Saturday morning is not worth the same as your Tuesday afternoon.
-> 
-> Peak pricing adds windows that change the price by day and hour: a percentage or a dollar amount, up for your busiest times or down to fill the quiet ones. Clients see the adjusted price before they choose, with the window named.
-> 
-> Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
-> 
-> #schedulign #personaltrainer #fitnessbusiness #pricingstrategy #bookingpage
-
-## 10. Tip: count the drive, then buffer it
-
-`010-buffers` · tip
-
-<img src="images/010-buffers/1.jpg" width="180"> <img src="images/010-buffers/2.jpg" width="180"> <img src="images/010-buffers/3.jpg" width="180"> <img src="images/010-buffers/4.jpg" width="180">
-
-> Back-to-back bookings look great on the calendar until the first one runs over.
-> 
-> Add up what happens between sessions: the drive, the cleanup, the coffee. That is your buffer. Put it on the event as minutes before or after each booking, and those minutes stay free.
-> 
-> Save this for the next week you are late to everything.
-> 
-> #schedulign #mobiledetailing #mobilebusiness #smallbusinesstips #selfemployed
