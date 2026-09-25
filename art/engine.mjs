@@ -327,5 +327,50 @@ const tipCard=(lines,big,sub,foot)=>`<rect width="400" height="500" fill="${NAVY
   +`<text class="fr" font-size="22" fill="#fff" text-anchor="middle" x="200" y="${130+lines.length*44+80}">${sub}</text>`
   +(foot?T(200,470,foot,{size:13,c:'#aab0cc',a:'middle'}):'');
 
+/* ---------- series pieces: badges, title cards, diagrams, weather ---------- */
+// The corner label on a series' first slide, so the series read apart in the grid.
+const badge=(label)=>{ const w=Math.round(label.length*8.6+36);
+  return `<g><rect x="14" y="14" width="${w}" height="24" rx="12" fill="${NAVY}" opacity=".94"/><circle cx="28" cy="26" r="4.5" fill="${LIME}"/>`
+    +`<text x="38" y="30.5" font-size="10.5" font-weight="700" letter-spacing="1.2" fill="#fff" class="ui">${label.toUpperCase()}</text></g>`; };
+// A navy opener: a big title, an optional lime subtitle, and Slot.
+const titleCard=(lines,{sub='',mood='smile',wave=true}={})=>`<rect width="400" height="500" fill="${NAVY}"/>`+glow(200,40,300,.28)
+  +`<text class="fr" font-size="34" fill="#fff" text-anchor="middle">${lines.map((l,i)=>`<tspan x="200" y="${150+i*44}">${l}</tspan>`).join('')}</text>`
+  +(sub?T(200,150+(lines.length-1)*44+44,sub,{size:15,w:600,c:LIME,a:'middle'}):'')
+  +slot(200,420,1.7,{mood,wave});
+// Diagram backdrop: the daylight wall with a faint dot grid.
+const diagramBg=()=>{ let s=`<rect width="400" height="500" fill="#c4cde3"/>`;
+  for(let y=20;y<500;y+=24) for(let x=20;x<400;x+=24) s+=`<circle cx="${x}" cy="${y}" r="1.1" fill="#fff" opacity=".55"/>`;
+  return s; };
+// A step in a flow: tone 'client' (white), 'page' (lime, the booking page at work), 'you' (navy), 'event' (amber).
+const flowCard=(x,y,w,title,sub='',{tone='client'}={})=>{
+  const tones={client:['#fff','#dfe2ec','#1c1e36',MUTED],page:['#f5f9e3',LIME,'#1c1e36','#4a4f70'],you:[NAVY,NAVY,'#fff','#c9cde0'],event:['#fdf3dc','#f2c14e','#1c1e36','#6a5a3a']}[tone];
+  const lines=sub?sub.split('\n'):[]; const h=36+lines.length*16;
+  return `<rect x="${x+3}" y="${y+6}" width="${w}" height="${h}" rx="14" fill="#000" opacity=".12"/><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="14" fill="${tones[0]}" stroke="${tones[1]}" stroke-width="2"/>`
+    +T(x+16,y+24,title,{size:14,w:700,c:tones[2]})+lines.map((l,i)=>T(x+16,y+44+i*16,l,{size:11.5,c:tones[3]})).join('');
+};
+const arrowDown=(x,y1,y2)=>`<path d="M${x},${y1} V${y2-8}" stroke="${NAVY}" stroke-width="3" stroke-linecap="round"/><path d="M${x-7},${y2-10} L${x},${y2} L${x+7},${y2-10}" fill="none" stroke="${NAVY}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>`;
+// A start time in a day column: open, booked, buffer, gone (filtered out) or left (what clients see).
+const timeChip=(x,y,t,state='open',w=150)=>{
+  const st={open:['#fff','#dfe2ec','#1c1e36'],booked:['#fdf3dc','#f2c14e','#6a5a3a'],buffer:['#e3e6ef','#cfd3e0','#8a8fa8'],gone:['#e3e6ef','#cfd3e0','#a3a7bd'],left:['#f5f9e3',LIME,'#1c1e36']}[state];
+  let s=`<rect x="${x}" y="${y}" width="${w}" height="26" rx="8" fill="${st[0]}" stroke="${st[1]}" stroke-width="1.5"/>`+T(x+12,y+17.5,t,{size:12,w:600,c:st[2]});
+  if(state==='booked') s+=T(x+w-10,y+17.5,'Booked',{size:10.5,w:700,c:'#6a5a3a',a:'end'});
+  if(state==='buffer') s+=T(x+w-10,y+17.5,'Buffer',{size:10.5,w:600,c:'#8a8fa8',a:'end'});
+  if(state==='gone') s+=`<path d="M${x+10},${y+13} h${w-20}" stroke="#a3a7bd" stroke-width="1.6"/>`;
+  return s; };
+// An email as it lands: sender, subject, a couple of lines and a button.
+const emailCard=(x,y,w,from,subject,lines=[],button='')=>card(x,y,w,64+lines.length*18+(button?48:0))
+  +`<circle cx="${x+22}" cy="${y+24}" r="10" fill="${NAVY}"/>`+T(x+40,y+22,from,{size:11,w:700})+T(x+40,y+36,'to you',{size:10,c:MUTED})
+  +T(x+16,y+58,subject,{size:14,w:700})+lines.map((l,i)=>T(x+16,y+78+i*18,l,{size:11.5,c:'#3a3f5e'})).join('')
+  +(button?btn(x+16,y+70+lines.length*18,w-32,button):'');
+// Grey sky and falling rain, for a washed-out day outside.
+function rainy(){
+  const id='r'+(++uid);
+  let s=`<defs><linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6f7c99"/><stop offset=".7" stop-color="#aab5c9"/></linearGradient></defs><rect width="400" height="500" fill="url(#${id})"/>`;
+  s+=[[60,70,1.3],[210,50,1.1],[330,100,1.2]].map(([a,b,k])=>`<g transform="translate(${a},${b}) scale(${k})" fill="#8793ad"><ellipse cx="0" cy="0" rx="40" ry="15"/><ellipse cx="-16" cy="-10" rx="20" ry="14"/><ellipse cx="14" cy="-13" rx="22" ry="16"/></g>`).join('');
+  return s;
+}
+const rain=()=>{ let s=''; for(let i=0;i<70;i++){ const x=(i*53)%410, y=(i*97)%480+10; s+=`<path d="M${x},${y} l-5,14" stroke="#e4ebf7" stroke-width="1.6" opacity=".7" stroke-linecap="round"/>`; } return s; };
+
+export { badge, titleCard, diagramBg, flowCard, arrowDown, timeChip, emailCard, rainy, rain };
 export { livingDay, kitchen, keypad, fence, dog, road, radio, field, priceRow, tipCard };
 export { INK, NAVY, LIME, MUTED, svg, win, lamp, glow, room, outdoor, house, tree, park, ARMS, hairFront, faceEl, heldItem, person, slot, slotHead, bubble, cap, T, chip, card, check, toggle, box, bars, btn, notice, mirror, counter, phoneFlat, salonChair, clock, plant, sofa, bed, nightstand, shelf, table, van, car, sparkle, bigPhone, phoneSlide, gymBg, study, living, MAYA, JONAH, DEV, ROSA, PRIYA, CLIENT1, CLIENT2, CLIENT3, CLIENT4, KID, STUDENT, salon, bedroom, paper, week };

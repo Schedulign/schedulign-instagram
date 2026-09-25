@@ -17,6 +17,7 @@ import { chromium } from 'playwright';
 import { loadPosts, ROOT, REPO_RAW } from './lib/posts.mjs';
 import { lint } from './lib/lint.mjs';
 import { writeUpNext } from './lib/upnext.mjs';
+import { orderQueue } from './lib/series.mjs';
 
 const args = process.argv.slice(2);
 const offline = args.includes('--offline');
@@ -78,11 +79,15 @@ for (const p of posts) {
 await browser.close();
 await writeFile(cachePath, JSON.stringify(cache, null, 1) + '\n');
 
-// The publisher's queue, in posting order. It reads id, title, caption and media.
-const queue = posts.map((p) => ({
+// The publisher's queue, in posting order (lib/series.mjs interleaves the
+// series). The publisher reads id, title, caption, media and hold.
+const statePath = path.join(ROOT, 'published.json');
+const state = existsSync(statePath) ? JSON.parse(await readFile(statePath, 'utf8')) : {};
+const queue = orderQueue(posts, state).map((p) => ({
   id: p.id,
   title: p.title,
-  pillar: p.pillar,
+  series: p.series,
+  ...(p.badge ? { badge: p.badge } : {}),
   ...(p.hold ? { hold: true } : {}),
   caption: p.caption,
   media: p.slides.map((_, i) => `${REPO_RAW}/images/${p.id}/${i + 1}.jpg`),

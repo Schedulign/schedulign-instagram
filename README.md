@@ -11,7 +11,8 @@ Posts drawn in code, rendered to JPEG and published to Instagram once a day, for
 | Piece | What it does |
 |---|---|
 | `art/engine.mjs` | The drawing engine: rooms and outdoor scenes by day or lamplight, the cast, Slot, props and phone screens. Improve it and every later post gets better. |
-| `content/posts/NNN-name.mjs` | One file per post: its slides, caption and the help articles behind its claims. The number sets the posting order. |
+| `content/posts/NNN-name.mjs` | One file per post: its series, slides, caption and the help articles behind its claims. The number orders posts within their series. |
+| `lib/series.mjs` | The series that run side by side (intro, spotlights, under the hood, episodes, before/after and tips) and the weekly pattern that interleaves them into the posting order. |
 | `render.mjs` | Lints every post (see `lib/lint.mjs`), draws the slides to 1080 × 1350 JPEGs in `images/`, and writes the queue (`posts.json`) and `UPNEXT.md`. |
 | `.github/workflows/render.yml` | Runs `render.mjs` on every push that changes posts or the engine, and commits the images. |
 | `publish.mjs` + `.github/workflows/publish.yml` | Posts the next post each day at about 11:30am Pacific through Instagram's own API, and records it in `published.json`. |

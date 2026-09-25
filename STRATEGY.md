@@ -29,14 +29,23 @@ Friendly cartoon scenes drawn in code (`art/engine.mjs`). The reference is the I
 
 Clients are drawn from the `CLIENT1` to `CLIENT4`, `KID` and `STUDENT` presets in the engine. Keep each person's look the same from post to post. A new cast member needs a preset in the engine first.
 
-## What gets posted
+## What gets posted: series that run side by side
 
-| Format | Share | Shape |
+Every post belongs to a series (`series:` in its file; `lib/series.mjs`). The series run at the same time, so the feed mixes them, and none of them ties the others down.
+
+| Series | Badge on slide 1 | What it is |
 |---|---|---|
-| **Feature spotlight** | About 4 of every 7 | A real problem, the feature that fixes it, what the client sees, the happy ending. Sam's favourite. |
-| **DM to book** (before / after) | About 1 in 7 | The messy way booking happens today, then the same moment with a link. |
-| **The business of your time** (tips) | About 1 in 7 | Useful advice first, often with a number slide; the feature appears as how you would do it. |
-| Free slot | About 1 in 7 | Another spotlight, or the best-performing format so far. |
+| **Intro** (`intro`) | Meet Schedulign | What Schedulign is, how a booking works, the cast. Always goes out before everything else waiting; the first three are pinned on the profile. Add a fresh intro now and then for new followers. |
+| **Spotlights** (`spotlight`) | Feature spotlight | A real problem, the feature that fixes it, what the client sees, the happy ending. The backbone of the feed and Sam's favourite. |
+| **Under the hood** (`hood`) | Under the hood | How something actually works, step by step, drawn as a diagram (`titleCard`, `diagramBg`, `flowCard`, `timeChip`). Every step comes from the help center. |
+| **Episodes** (`episode`) | The run's name, e.g. "Jonah's first month" | A standalone moment from a recurring character's work that quietly uses a feature. Never "Part 2 of 5": any episode can be held, skipped or reordered without leaving a story hanging. A run is a handful of episodes; then start a new run with another character. |
+| **Before/after and tips** (`everyday`) | none | The messy way booking happens today vs a link, and saveable advice with a number slide. |
+
+The posting order comes from a weekly pattern, not the file numbers: Mon spotlight, Tue under the hood, Wed episode, Thu spotlight, Fri before/after or tip, Sat episode, Sun spotlight. When a series has nothing waiting, the next one fills its day (spotlight, then everyday, under the hood, episode). File numbers only order posts within a series.
+
+Episode runs to come, after "Jonah's first month": Maya going out on her own, Rosa's exam season, Priya's busiest fall, Dev's 6am regulars.
+
+Under-the-hood ideas: what each email a client gets says and when, what happens to a booking when it is rescheduled, how a request moves from asked to approved (or expired), how peak windows change a price, how client perks unlock with an email.
 
 Spotlights still to make (not yet in the queue): the booking widget on your own site, tips, the follow-up email with a book-again link, hiding an event from the page and sharing a direct link, access codes for private events, blocking a client, date-specific hours, booking notice and how far ahead clients can book, pay online or pay at the session per event, lengths without prices. Team features wait until the solo product is the focus of the feed. Before writing any of them, check the feature against its help article (below).
 
