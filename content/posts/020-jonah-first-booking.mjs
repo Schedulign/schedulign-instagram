@@ -20,7 +20,7 @@ ${CTA}
       svg(outdoor('day') + `<rect y="352" width="400" height="148" fill="#a9adbd"/><rect y="340" width="400" height="14" fill="#6fa06a"/>`
         + van(40, 452) + sparkle(120, 318, 9, LIME) + sparkle(200, 340, 6)
         + person({ x: 316, y: 462, s: 1, ...JONAH, arms: 'hold', hold: 'sponge', face: 'grin' })
-        + cap('Day 1. New van.\nZero clients.', 474), 'Jonah proudly standing next to his new van'),
+        + cap('Brand-new van.\nZero clients.', 474), 'Jonah proudly standing next to his new van'),
       svg(kitchen(false) + person({ x: 110, y: 392, s: 1, ...JONAH, arms: 'phone' })
         + card(168, 60, 214, 150) + T(184, 88, 'SHINE Mobile Detail', { size: 15, w: 700 }) + T(184, 106, 'Driveway details · Saturdays', { size: 11, c: MUTED })
         + `<rect x="184" y="120" width="182" height="30" rx="9" fill="#f6f7fb" stroke="#dfe2ec"/>` + T(196, 140, 'schedulign.com/shine', { size: 12, w: 600 })
