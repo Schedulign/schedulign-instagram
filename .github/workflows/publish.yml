@@ -1,12 +1,15 @@
 name: Publish to Instagram
 
 on:
-  # One post a day, about 11:30am Pacific (18:30 UTC in summer time, 10:30am in
-  # winter). The second run is a backup in case GitHub drops the first; the
-  # 12-hour gap below makes it do nothing when the first one posted.
+  # One post a day, about 11:20am Pacific (18:17 UTC in summer time, 10:17am in
+  # winter). GitHub delays or drops runs scheduled on the hour and half hour
+  # (the 18:30 run never started on Sep 25), so the minutes are odd, and two
+  # backups follow; the 12-hour gap below makes a backup do nothing once a
+  # post went out.
   schedule:
-    - cron: '30 18 * * *'
-    - cron: '30 20 * * *'
+    - cron: '17 18 * * *'
+    - cron: '47 19 * * *'
+    - cron: '13 21 * * *'
   workflow_dispatch:
     inputs:
       mode:
