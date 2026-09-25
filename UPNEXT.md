@@ -1,28 +1,12 @@
 # Up next
 
-One post a day, about 11:30am Pacific, in this order. 0 of 21 posted so far.
+One post a day, about 11:30am Pacific, in this order. 1 of 21 posted so far.
 
-Waiting, by series: Intro:3 · Spotlights:10 · Under the hood:2 · Episodes:2 · Before/after and tips:4.
+Waiting, by series: Intro:2 · Spotlights:10 · Under the hood:2 · Episodes:2 · Before/after and tips:4.
 
 To stop a post, set `hold: true` in its file under `content/posts`, or delete the file.
 
-## 1. Hello: meet your booking page
-
-`015-hello` · Meet Schedulign
-
-<img src="images/015-hello/1.jpg" width="180"> <img src="images/015-hello/2.jpg" width="180"> <img src="images/015-hello/3.jpg" width="180"> <img src="images/015-hello/4.jpg" width="180"> <img src="images/015-hello/5.jpg" width="180">
-
-> Hi. Meet Schedulign: the booking page that runs your business.
-> 
-> It is for people who sell their time: stylists, trainers, tutors, photographers, detailers, consultants, and anyone else whose work comes in sessions. Clients pick a time, answer your questions and book from one link, without making an account. You set the rules per event: hours, place, price, forms, reminders and cancellations.
-> 
-> This account follows a few of those people at work, shows how the features help, and now and then opens the hood. Stick around.
-> 
-> Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
-> 
-> #schedulign #bookingpage #smallbusinessowner #selfemployed #solopreneur
-
-## 2. How a booking works, start to finish
+## 1. How a booking works, start to finish
 
 `016-how-a-booking-works` · Meet Schedulign
 
@@ -41,7 +25,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #bookingpage #onlinebooking #smallbusinesstips #selfemployed
 
-## 3. Meet the regulars
+## 2. Meet the regulars
 
 `017-meet-the-cast` · Meet Schedulign
 
@@ -55,7 +39,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #smallbusinessowner #selfemployed #solopreneur #bookingpage
 
-## 4. Location: every house is the blue one
+## 3. Location: every house is the blue one
 
 `001-location` · Feature spotlight
 
@@ -69,7 +53,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
 
-## 5. Under the hood: when someone cancels
+## 4. Under the hood: when someone cancels
 
 `018-hood-waitlist` · Under the hood
 
@@ -88,7 +72,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #bookingpage #waitlist #smallbusinesstips #selfemployed
 
-## 6. Jonah’s first month: the first booking
+## 5. Jonah’s first month: the first booking
 
 `020-jonah-first-booking` · Jonah’s first month
 
@@ -104,7 +88,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #mobiledetailing #newbusiness #smallbusinessjourney #bookingpage
 
-## 7. Waivers: signed before they book
+## 6. Waivers: signed before they book
 
 `003-waivers` · Feature spotlight
 
@@ -118,7 +102,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #personaltrainer #fitnessbusiness #gymowner #bookingpage
 
-## 8. DM to book: the fourteen-message haircut
+## 7. DM to book: the fourteen-message haircut
 
 `002-dm-to-book` · Before/after and tips
 
@@ -132,7 +116,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #hairstylist #salonowner #behindthechair #bookingpage
 
-## 9. Jonah’s first month: the rainy Tuesday
+## 8. Jonah’s first month: the rainy Tuesday
 
 `021-jonah-rain` · Jonah’s first month
 
@@ -148,7 +132,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
 
-## 10. Client perks: regulars first
+## 9. Client perks: regulars first
 
 `005-client-perks` · Feature spotlight
 
@@ -162,7 +146,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #photographybusiness #minisessions #photographer #bookingpage
 
-## 11. Requests: say yes before it is booked
+## 10. Requests: say yes before it is booked
 
 `006-requests` · Feature spotlight
 
@@ -176,7 +160,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #tutor #tutoringbusiness #privatetutor #bookingpage
 
-## 12. Under the hood: which times clients see
+## 11. Under the hood: which times clients see
 
 `019-hood-which-times-show` · Under the hood
 
@@ -192,7 +176,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #bookingpage #scheduling #smallbusinesstips #selfemployed
 
-## 13. Waitlists: a freed time, held for them
+## 12. Waitlists: a freed time, held for them
 
 `007-waitlist` · Feature spotlight
 
@@ -206,7 +190,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #hairstylist #salonowner #behindthechair #bookingpage
 
-## 14. Access details: the gate code comes with the booking
+## 13. Access details: the gate code comes with the booking
 
 `008-access-details` · Feature spotlight
 
@@ -219,3 +203,19 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
 > 
 > #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
+
+## 14. Tip: what a no-show really costs
+
+`004-no-show-math` · Before/after and tips
+
+<img src="images/004-no-show-math/1.jpg" width="180"> <img src="images/004-no-show-math/2.jpg" width="180"> <img src="images/004-no-show-math/3.jpg" width="180"> <img src="images/004-no-show-math/4.jpg" width="180"> <img src="images/004-no-show-math/5.jpg" width="180">
+
+> A no-show costs more than one session.
+> 
+> Two a month at $60 is $1,440 a year. Work out your own number, then write your cancellation policy before the next one, not after.
+> 
+> Each event has its own cancellation settings: whether clients can cancel or reschedule online, and until when. Your written policy shows as a link clients accept before they book.
+> 
+> Save this for the next time someone ghosts your 6am.
+> 
+> #schedulign #personaltrainer #fitnessbusiness #smallbusinesstips #selfemployed
