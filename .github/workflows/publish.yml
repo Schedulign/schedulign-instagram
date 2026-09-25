@@ -3,7 +3,7 @@ name: Publish to Instagram
 on:
   # One post a day, about 11:30am Pacific (18:30 UTC in summer time, 10:30am in
   # winter). The second run is a backup in case GitHub drops the first; the
-  # 20-hour gap below makes it do nothing when the first one posted.
+  # 12-hour gap below makes it do nothing when the first one posted.
   schedule:
     - cron: '30 18 * * *'
     - cron: '30 20 * * *'
@@ -42,8 +42,10 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           MODE: ${{ github.event.inputs.mode || 'publish' }}
-          # Scheduled runs keep the daily spacing; a manual "publish" posts at once.
-          MIN_GAP_MINUTES: ${{ github.event_name == 'schedule' && '1200' || '0' }}
+          # Scheduled runs never post within 12 hours of the last post, so the backup
+          # run cannot double up and a manual post the evening before does not skip
+          # a day. A manual "publish" posts at once.
+          MIN_GAP_MINUTES: ${{ github.event_name == 'schedule' && '720' || '0' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
