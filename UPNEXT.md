@@ -20,17 +20,17 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #smallbusinessowner #selfemployed #solopreneur #bookingpage
 
-## 2. Built for sessions, not meetings
+## 2. Booking a time is the easy part
 
-`022-built-for-sessions` · Meet Schedulign
+`022-more-than-a-time` · Meet Schedulign
 
-<img src="images/022-built-for-sessions/1.jpg" width="180"> <img src="images/022-built-for-sessions/2.jpg" width="180"> <img src="images/022-built-for-sessions/3.jpg" width="180"> <img src="images/022-built-for-sessions/4.jpg" width="180"> <img src="images/022-built-for-sessions/5.jpg" width="180"> <img src="images/022-built-for-sessions/6.jpg" width="180"> <img src="images/022-built-for-sessions/7.jpg" width="180">
+<img src="images/022-more-than-a-time/1.jpg" width="180"> <img src="images/022-more-than-a-time/2.jpg" width="180"> <img src="images/022-more-than-a-time/3.jpg" width="180"> <img src="images/022-more-than-a-time/4.jpg" width="180"> <img src="images/022-more-than-a-time/5.jpg" width="180"> <img src="images/022-more-than-a-time/6.jpg" width="180"> <img src="images/022-more-than-a-time/7.jpg" width="180">
 
-> Meeting tools handle the work around meetings. Schedulign runs the business around your sessions.
+> Booking a time is the easy part.
 > 
-> A meeting needs a time and a link. A session needs more: a place, sometimes one that stays private until someone books. A price that changes with the group or the hour. A waiver. Getting paid. And a calendar that does not stay empty when someone cancels.
+> Whether it is a meeting, a haircut, a training session or a family shoot, a booking often needs more than a time: a place, sometimes one that stays private until someone books. A price that changes with the group or the hour. A waiver. Getting paid. And a waitlist for when someone cancels.
 > 
-> That is what Schedulign is built for, and every plan has all of it.
+> Schedulign handles the time and everything around it, and every plan has all of it.
 > 
 > Early access is open and every plan is $0 while it runs. Link in bio: schedulign.com
 > 

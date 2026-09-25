@@ -1,5 +1,6 @@
-// Intro: built for sessions, not meetings. The positioning in one scroll; pin it.
-// Pillars: made for sessions (all four shown). Claims: help/locations (client provides / place kept off the page until booking),
+// Intro: booking a time is the easy part. The positioning in one scroll; pin it.
+// Sam (Sep 25 2026): not "not meetings" — people will use it for meetings too. A meeting is one example, never excluded.
+// Pillars: more than a time slot (all four shown). Claims: help/locations (client provides / place kept off the page until booking),
 // help/durations-and-pricing (a price per group size and length; peak windows), help/booking-form-and-waivers (typed e-signature
 // while booking), help/openings-alerts-and-waitlists (freed time held for the first in line), help/plans-and-billing (Free has everything in Pro).
 export default (k) => {
@@ -7,23 +8,23 @@ export default (k) => {
   const need = (x, title, items, tone) => card(x, 64, 170, 64 + items.length * 34) + T(x + 16, 94, title, { size: 14, w: 700 })
     + items.map((t, i) => `<rect x="${x + 14}" y="${110 + i * 34}" width="142" height="26" rx="8" fill="${tone === 'session' ? '#f5f9e3' : '#f1f2f6'}" stroke="${tone === 'session' ? LIME : '#dfe2ec'}" stroke-width="1.5"/>` + T(x + 26, 127.5 + i * 34, t, { size: 12, w: 600, c: tone === 'session' ? INK : '#8a8fa8' })).join('');
   return {
-    title: 'Built for sessions, not meetings',
+    title: 'Booking a time is the easy part',
     series: 'intro',
     claims: ['locations', 'durations-and-pricing', 'booking-form-and-waivers', 'openings-alerts-and-waitlists', 'plans-and-billing'],
-    caption: `Meeting tools handle the work around meetings. Schedulign runs the business around your sessions.
+    caption: `Booking a time is the easy part.
 
-A meeting needs a time and a link. A session needs more: a place, sometimes one that stays private until someone books. A price that changes with the group or the hour. A waiver. Getting paid. And a calendar that does not stay empty when someone cancels.
+Whether it is a meeting, a haircut, a training session or a family shoot, a booking often needs more than a time: a place, sometimes one that stays private until someone books. A price that changes with the group or the hour. A waiver. Getting paid. And a waitlist for when someone cancels.
 
-That is what Schedulign is built for, and every plan has all of it.
+Schedulign handles the time and everything around it, and every plan has all of it.
 
 ${CTA}
 
 #schedulign #bookingpage #smallbusinessowner #selfemployed #solopreneur`,
     slides: [
-      svg(titleCard(['Built for sessions,', 'not meetings.'], { sub: 'Here’s the difference' }), 'Built for sessions, not meetings'),
-      svg(diagramBg() + need(22, 'A meeting needs', ['A time', 'A video link'], 'meeting') + need(208, 'A session needs', ['A time', 'A place', 'A price', 'A waiver', 'Getting paid', 'A full calendar'], 'session')
+      svg(titleCard(['Booking a time is', 'the easy part.'], { sub: 'Here’s the rest' }), 'Booking a time is the easy part'),
+      svg(diagramBg() + need(22, 'Every booking', ['A time'], 'time') + need(208, 'Often needs more', ['A place', 'A price', 'A waiver', 'Getting paid', 'A waitlist'], 'session')
         + slot(110, 400, 1.2, { point: true })
-        + cap('A meeting needs a time.\nA session needs more.'), 'A meeting needs a time and a link; a session needs a place, a price, a waiver, payment and a full calendar'),
+        + cap('The time is easy.\nThe rest is built in.'), 'Every booking needs a time; many also need a place, a price, a waiver, payment and a waitlist'),
       svg(outdoor('day') + `<rect y="352" width="400" height="148" fill="#6fa06a"/><path d="M150,352 L400,352 L400,500 L60,500Z" fill="#a9adbd"/>`
         + house(186, 352, 214, 150, '#8fb3d9', { num: '42', day: true }) + person({ x: 293, y: 352, s: .62, ...CLIENT2, arms: 'wave', face: 'grin' })
         + car(6, 440) + sparkle(60, 360, 9) + sparkle(250, 410, 6, LIME)
