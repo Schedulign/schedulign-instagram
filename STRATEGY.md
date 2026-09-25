@@ -47,7 +47,21 @@ Episode runs to come, after "Jonah's first month": Maya going out on her own, Ro
 
 Under-the-hood ideas: what each email a client gets says and when, what happens to a booking when it is rescheduled, how a request moves from asked to approved (or expired), how peak windows change a price, how client perks unlock with an email.
 
-Spotlights still to make (not yet in the queue): the booking widget on your own site, tips, the follow-up email with a book-again link, hiding an event from the page and sharing a direct link, access codes for private events, blocking a client, date-specific hours, booking notice and how far ahead clients can book, pay online or pay at the session per event, lengths without prices. Team features wait until the solo product is the focus of the feed. Before writing any of them, check the feature against its help article (below).
+### Themes to keep hitting (from a look at Calendly's feed, Sep 24 2026)
+
+Calendly's feed is mostly static text graphics and talking-head reels. The themes are worth covering; the flat, story-driven art is where Schedulign does them better.
+
+- **Getting paid.** Calendly leads with invoicing: "getting paid should feel like the finish line". Schedulign's version: card payments at booking through the host's own Stripe account, or offline methods they already take, chosen per event; tips at checkout or afterwards; a payment link after an approved request; automatic or manual refunds. Held until Sam confirms a real host has connected Stripe and taken a card (then drop the hold line in the truth rules).
+- **Reward regulars, fill slow weeks.** Calendly pushes coupon codes. Schedulign has client perks (done), discount windows in peak pricing (a negative percentage for quiet hours), and discount codes through Stripe at checkout (with payments).
+- **Where clients already are.** Your link in your Instagram bio (very on-theme for this account), a QR code for the van, the salon mirror or a flyer, the booking widget on your own website.
+- **Protect your time.** "More space for what matters": days off and date-specific hours, buffers, evenings with no "are you free" texts, a real holiday while the page keeps booking the weeks after.
+- **Seasons and moments.** Tie posts to the calendar a week or two ahead: back to school and exam season (Rosa), holiday party season (Maya), wedding and fall mini-session season (Priya), New Year gym rush (Dev), first snow and pollen season (Jonah).
+- **Talk with people.** End about one caption in four with a question that invites a comment ("How do clients book you today: DMs, texts or a link?"). Keep it light and specific; never bait.
+- **A person behind it.** Calendly's best-performing posts feature a real person (a customer story, a "How I Work" guest). Real customer stories wait for a real host who agrees to it (Sam's call, with their words, never invented numbers). Until then the cast carries it.
+
+What to avoid, also from Calendly's comments: several people pushing back on AI features they did not ask for, and support questions left unanswered under posts. Lead with simple and human, never with AI, and never claim what the product does not do. Comments asking for help get pointed to schedulign.com/help or admin@schedulign.com (Sam or whoever runs the account replies; the automation never does).
+
+Spotlights still to make (not yet in the queue): your link in your Instagram bio, a QR code on the van or the mirror, the booking widget on your own site, tips, the follow-up email with a book-again link, hiding an event from the page and sharing a direct link, access codes for private events, blocking a client, date-specific hours, booking notice and how far ahead clients can book, pay online or pay at the session per event, lengths without prices. Team features wait until the solo product is the focus of the feed. Before writing any of them, check the feature against its help article (below).
 
 ## Truth rules (enforced by `lib/lint.mjs`)
 
