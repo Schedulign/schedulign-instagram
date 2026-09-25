@@ -6,6 +6,26 @@ Rules for what gets posted. The weekly job (ROUTINE.md) follows this file, and s
 
 People who sell their time: trainers, stylists, tutors, consultants, therapists, photographers, mobile pros like detailers, and small teams of them. The feed shows them doing their work, and shows the booking page taking a chore off their hands.
 
+## Positioning: how Schedulign is different
+
+**The line:** meeting tools handle the work around meetings; Schedulign runs the business around your sessions. The audience does not hold meetings. They sell a haircut, a driveway detail, a training block, an hour of algebra, a family shoot: a session with a place, a price, sometimes a group, often paperwork, and a calendar they need full.
+
+**Four pillars.** Every post proves at least one. Each proof point is shipped and in the help center.
+
+| Pillar | What it means for them | Proof points |
+|---|---|---|
+| **Made for sessions, not meetings** | The details of in-person, paid work are built in, not bolted on. | Location choices incl. the client's own address and the exact place kept off the page until they book; access details; a price for every group size and length; peak and discount hours; waivers signed while booking. |
+| **Money is part of it** | Getting paid is part of the booking, on every plan. | Card at booking through their own Stripe, or the offline ways they already take (and Mark paid); per event; tips; a payment link after an approved request. The Free plan has everything in Pro (up to 5 bookings a week), and card payments carry only Stripe's fee, with nothing added by Schedulign (help/plans-and-billing). (Online-card posts wait for the Stripe confirmation above; offline and Mark paid can go now.) |
+| **A fuller calendar** | Cancellations and quiet hours get filled, regulars come first. | Day waitlists with a two-hour hold, openings alerts, unlisted-time requests, requests-only events, client perks, discount hours, reminders. |
+| **Simple and yours** | Easy for clients, controlled by you, no clutter. | No client accounts; clients change bookings from their link inside your windows; confirmation as a calendar invite; rules per event; blocking per event; a help center and a Report a problem link on every page. |
+
+**How to say it**
+- Start from their pain, in their words: the DM thread, the no-show, the Venmo chase, the lost waiver, the wrong driveway, the empty chair after a cancellation. Then the feature. Then the relief.
+- Speak their work: chair, driveway, session, client, regular, fully booked Saturday. Never "meetings", "calls", "attendees", "leads" or "workflow". Never "coach".
+- **Never name another product**, and never claim what another product can or cannot do. Prove Schedulign's side only; the audience draws the comparison. ("Built for sessions, not meetings" names no one.)
+- Match what meeting tools do well, so it never looks missing: one simple link, no back-and-forth, time zones handled, calendar invites, reminders, a widget and QR code, discount codes.
+- Lead with simple and human. Never lead with AI, and never promise anything the help center does not support.
+
 ## The look: "Lamplight"
 
 Friendly cartoon scenes drawn in code (`art/engine.mjs`). The reference is the Instagram account buildwithorin.
@@ -57,7 +77,7 @@ Calendly's feed is mostly static text graphics and talking-head reels. The theme
 - **Protect your time.** "More space for what matters": days off and date-specific hours, buffers, evenings with no "are you free" texts, a real holiday while the page keeps booking the weeks after.
 - **Seasons and moments.** Tie posts to the calendar a week or two ahead: back to school and exam season (Rosa), holiday party season (Maya), wedding and fall mini-session season (Priya), New Year gym rush (Dev), first snow and pollen season (Jonah).
 - **Talk with people.** End about one caption in four with a question that invites a comment ("How do clients book you today: DMs, texts or a link?"). Keep it light and specific; never bait.
-- **A person behind it.** Calendly's best-performing posts feature a real person (a customer story, a "How I Work" guest). Real customer stories wait for a real host who agrees to it (Sam's call, with their words, never invented numbers). Until then the cast carries it.
+- **No real people, for now** (Sam, Sep 24 2026). Calendly's best posts feature real customers; this feed stays simple and animated, and the cast carries it.
 
 What to avoid, also from Calendly's comments: several people pushing back on AI features they did not ask for, and support questions left unanswered under posts. Lead with simple and human, never with AI, and never claim what the product does not do. Comments asking for help get pointed to schedulign.com/help or admin@schedulign.com (Sam or whoever runs the account replies; the automation never does).
 
