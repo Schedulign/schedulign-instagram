@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Schedulign: Slot, the calendar tile">
+  <rect x="4" y="12" width="92" height="84" rx="22" fill="#b9d32c"/>
+  <path d="M4,40 V34 Q4,12 26,12 H74 Q96,12 96,34 V40 Z" fill="#303159"/>
+  <rect x="26" y="2" width="12" height="24" rx="6" fill="#b9d32c" stroke="#303159" stroke-width="3"/>
+  <rect x="62" y="2" width="12" height="24" rx="6" fill="#b9d32c" stroke="#303159" stroke-width="3"/>
+  <circle cx="35" cy="60" r="6.5" fill="#1f2238"/><circle cx="65" cy="60" r="6.5" fill="#1f2238"/>
+  <circle cx="37.2" cy="57.8" r="2" fill="#ffffff"/><circle cx="67.2" cy="57.8" r="2" fill="#ffffff"/>
+  <circle cx="20" cy="74" r="7" fill="#ffffff" opacity=".35"/><circle cx="80" cy="74" r="7" fill="#ffffff" opacity=".35"/>
+  <path d="M38,75 Q50,87 62,75" stroke="#1f2238" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+</svg>

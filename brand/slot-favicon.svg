@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Schedulign">
+  <rect x="4" y="12" width="92" height="84" rx="22" fill="#b9d32c"/>
+  <path d="M4,42 V34 Q4,12 26,12 H74 Q96,12 96,34 V42 Z" fill="#303159"/>
+  <circle cx="34" cy="64" r="11" fill="#1f2238"/><circle cx="66" cy="64" r="11" fill="#1f2238"/>
+</svg>
