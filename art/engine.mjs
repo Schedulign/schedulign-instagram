@@ -10,6 +10,10 @@
  * in the SVG (.cap, .ui, .fr) are styled by render.mjs.
  */
 let uid=0;
+// Gradient and clip ids count up per post, restarting for each one (lib/posts.mjs
+// calls this before building a post), so adding a post never changes the SVG of
+// the posts after it and only the new post's slides are redrawn.
+const resetIds=()=>{ uid=0; };
 const INK='#1f2238', NAVY='#303159', LIME='#b9d32c', MUTED='#6a6f8f';
 const svg=(inner,label,vb)=>`<svg class="scene" viewBox="${vb||'0 0 400 500'}" role="img" aria-label="${label}" xmlns="http://www.w3.org/2000/svg">${inner}</svg>`;
 
@@ -373,6 +377,7 @@ function rainy(){
 }
 const rain=()=>{ let s=''; for(let i=0;i<70;i++){ const x=(i*53)%410, y=(i*97)%480+10; s+=`<path d="M${x},${y} l-5,14" stroke="#e4ebf7" stroke-width="1.6" opacity=".7" stroke-linecap="round"/>`; } return s; };
 
+export { resetIds };
 export { badge, titleCard, diagramBg, flowCard, arrowDown, timeChip, emailCard, rainy, rain };
 export { livingDay, kitchen, keypad, fence, dog, road, radio, field, priceRow, tipCard };
 export { INK, NAVY, LIME, MUTED, svg, win, lamp, glow, room, outdoor, house, tree, park, ARMS, hairFront, faceEl, heldItem, person, slot, slotHead, bubble, cap, T, chip, card, check, toggle, box, bars, btn, notice, mirror, counter, phoneFlat, salonChair, clock, plant, sofa, bed, nightstand, shelf, table, van, car, sparkle, bigPhone, phoneSlide, gymBg, study, living, MAYA, JONAH, DEV, ROSA, PRIYA, CLIENT1, CLIENT2, CLIENT3, CLIENT4, KID, STUDENT, salon, bedroom, paper, week };
