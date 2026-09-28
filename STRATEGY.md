@@ -2,6 +2,27 @@
 
 Rules for what gets posted. The weekly job (ROUTINE.md) follows this file, and so should anyone who writes a post by hand.
 
+## The brand brief (Sam's answers, Sep 28 2026)
+
+This section wins over anything below that disagrees with it.
+
+| | |
+|---|---|
+| **Who first** | Solo pros, led by **fitness and wellness**: personal trainers, yoga and pilates teachers, massage therapists, therapists. Everyone else stays welcome, and the rest of the cast keeps appearing, but most posts speak to them. |
+| **The one takeaway** | **It takes the admin off me.** No back-and-forth, no chasing payments or waivers; the page handles it. |
+| **Voice** | Warm, friendly and playful. The humor is about the **situation** (DM chaos, 11pm texting, the paper-waiver pile), never at a client's expense. |
+| **Tagline** | "The booking page that runs your business." |
+| **Lead features** | **Waivers signed at booking** and **getting paid**. |
+| **The doubt to answer** | "My clients just text me, DMs work fine." Answer it with the hidden cost of the back-and-forth, never by mocking the habit. |
+| **Words** | Clients book **sessions**. Never name another product. |
+| **Price** | Value first. Posts lead with the problem solved; free comes up lightly or not at all. |
+| **Slot** | An occasional narrator: Slot fronts intros and some tips ("Hi, I'm Slot…"); the freelancers lead the stories. |
+| **Off-limits** | Health or results claims (Schedulign books the time; it promises no outcome), and body or weight themes (no before/after bodies, no weight-loss jokes). |
+| **Goal** | Sign-ups. Every post points to the link in bio; measure link taps and new accounts. |
+| **Cadence** | Five posts a week, weekdays. TikTok is the next channel. |
+
+**Casting for this focus.** Dev (trainer) carries most fitness stories. Add a wellness regular to the cast (a massage therapist or yoga teacher, as a new preset in the engine) and give them the next episode run. Priority topics: waivers, no-shows and cancellation policies, reminders, getting paid (see the payments hold below), group sessions, early-morning regulars.
+
 ## Who it is for
 
 People who sell their time: trainers, stylists, tutors, consultants, therapists, photographers, mobile pros like detailers, and small teams of them. The feed shows them doing their work, and shows the booking page taking a chore off their hands.
@@ -61,7 +82,7 @@ Every post belongs to a series (`series:` in its file; `lib/series.mjs`). The se
 | **Episodes** (`episode`) | The run's name, e.g. "Jonah's first month" | A standalone moment from a recurring character's work that quietly uses a feature. No numbers anywhere, on the slides or in the caption: no "Part 2", "Episode 3", "Day 1" or "2/5", so nobody feels they have to go back and catch up (lint rejects them). Any episode can be held, skipped or reordered without leaving a story hanging. A run is a handful of episodes; then start a new run with another character. |
 | **Before/after and tips** (`everyday`) | none | The messy way booking happens today vs a link, and saveable advice with a number slide. |
 
-The posting order comes from a weekly pattern, not the file numbers: Mon spotlight, Tue under the hood, Wed episode, Thu spotlight, Fri before/after or tip, Sat episode, Sun spotlight. When a series has nothing waiting, the next one fills its day (spotlight, then everyday, under the hood, episode). File numbers only order posts within a series.
+The posting order comes from a weekly pattern, not the file numbers: Mon spotlight, Tue under the hood, Wed episode, Thu spotlight, Fri before/after or tip (no posts at the weekend). When a series has nothing waiting, the next one fills its day (spotlight, then everyday, under the hood, episode). File numbers only order posts within a series.
 
 Episode runs to come, after "Jonah's first month": Maya going out on her own, Rosa's exam season, Priya's busiest fall, Dev's 6am regulars.
 
@@ -103,7 +124,7 @@ Second person, plain and warm. Short sentences. A little wry, never snarky about
 
 ## Cadence
 
-One post a day at about 11:30am Pacific. The weekly job keeps at least ten days of posts in the queue, so each new post waits a week or more before it goes out. That is the review window.
+Five posts a week, Monday to Friday, at about 11:20am Pacific. The weekly job keeps about two weeks of posts in the queue, so each new post waits a week or more before it goes out. That is the review window.
 
 ## Measuring (once there is an account)
 

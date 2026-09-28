@@ -44,7 +44,7 @@ ${CTA}
         + person({ x: 84, y: 392, s: 1.02, ...MAYA, arms: 'cut', hold: 'scissors', face: 'grin' })
         + card(214, 150, 172, 70) + T(228, 176, 'Canceled time', { size: 11, w: 700, c: MUTED }) + T(228, 198, 'Held for the waitlist', { size: 12.5, w: 600 })
         + cap('Canceled times go to\nthe waitlist first.'), 'Maya’s chair filled from the waitlist after a cancellation'),
-      svg(titleCard(['Your booking page,', 'free during', 'early access.'], { sub: 'Link in bio · schedulign.com' }), 'Your booking page, free during early access'),
+      svg(titleCard(['Hand the admin', 'to your', 'booking page.'], { sub: 'Link in bio · schedulign.com' }), 'Hand the admin to your booking page'),
     ],
   };
 };
