@@ -1,8 +1,8 @@
 # Up next
 
-One post each weekday, about 11:20am Pacific, in this order. 2 of 22 posted so far.
+One post each weekday, about 11:20am Pacific, in this order. 2 of 23 posted so far.
 
-Waiting, by series: Intro:2 · Spotlights:10 · Under the hood:2 · Episodes:2 · Before/after and tips:4.
+Waiting, by series: Intro:2 · Spotlights:11 · Under the hood:2 · Episodes:2 · Before/after and tips:4.
 
 To stop a post, set `hold: true` in its file under `content/posts`, or delete the file.
 
@@ -85,19 +85,21 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #mobiledetailing #newbusiness #smallbusinessjourney #bookingpage
 
-## 6. Location: every house is the blue one
+## 6. Getting paid: paid when they book
 
-`001-location` · Feature spotlight
+`001-getting-paid` · Feature spotlight
 
-<img src="images/001-location/1.jpg" width="180"> <img src="images/001-location/2.jpg" width="180"> <img src="images/001-location/3.jpg" width="180"> <img src="images/001-location/4.jpg" width="180">
+<img src="images/001-getting-paid/1.jpg" width="180"> <img src="images/001-getting-paid/2.jpg" width="180"> <img src="images/001-getting-paid/3.jpg" width="180"> <img src="images/001-getting-paid/4.jpg" width="180"> <img src="images/001-getting-paid/5.jpg" width="180">
 
-> Every house is the blue one when you are standing on the street at dusk.
+> "I'll send it tonight." Then it's Friday, and you're matching payments to sessions.
 > 
-> Work at the client's place? Let them type the address when they book. Working from your own places? Let them pick from your list, or keep the exact place off your page until they book. You set it per event.
+> Set a session to be paid online and clients pay by card when they book, through your own Stripe account. Add tipping at checkout if you like. Rather keep cash or Venmo? List the ways you take money and mark each session paid. You choose for each kind of session.
+> 
+> Card payments carry only Stripe's fee. Schedulign adds nothing on top.
 > 
 > Hand the admin to your booking page. Link in bio: schedulign.com
 > 
-> #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
+> #schedulign #personaltrainer #fitnessbusiness #smallbusinesstips #bookingpage
 
 ## 7. Tip: what a no-show really costs
 
@@ -115,19 +117,19 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #personaltrainer #fitnessbusiness #smallbusinesstips #selfemployed
 
-## 8. Client perks: regulars first
+## 8. Location: every house is the blue one
 
-`005-client-perks` · Feature spotlight
+`001-location` · Feature spotlight
 
-<img src="images/005-client-perks/1.jpg" width="180"> <img src="images/005-client-perks/2.jpg" width="180"> <img src="images/005-client-perks/3.jpg" width="180"> <img src="images/005-client-perks/4.jpg" width="180">
+<img src="images/001-location/1.jpg" width="180"> <img src="images/001-location/2.jpg" width="180"> <img src="images/001-location/3.jpg" width="180"> <img src="images/001-location/4.jpg" width="180">
 
-> Your regulars should not find out about mini sessions at the same time as everyone else.
+> Every house is the blue one when you are standing on the street at dusk.
 > 
-> Put them in a client group and give that group perks on any event: book further ahead than everyone else, book closer to the start, skip approval on a request-only event, or pay offline. They unlock them on your booking page with their email. No account needed.
+> Work at the client's place? Let them type the address when they book. Working from your own places? Let them pick from your list, or keep the exact place off your page until they book. You set it per event.
 > 
 > Hand the admin to your booking page. Link in bio: schedulign.com
 > 
-> #schedulign #photographybusiness #minisessions #photographer #bookingpage
+> #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
 
 ## 9. Under the hood: which times clients see
 
@@ -161,19 +163,19 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
 
-## 11. Requests: say yes before it is booked
+## 11. Client perks: regulars first
 
-`006-requests` · Feature spotlight
+`005-client-perks` · Feature spotlight
 
-<img src="images/006-requests/1.jpg" width="180"> <img src="images/006-requests/2.jpg" width="180"> <img src="images/006-requests/3.jpg" width="180"> <img src="images/006-requests/4.jpg" width="180">
+<img src="images/005-client-perks/1.jpg" width="180"> <img src="images/005-client-perks/2.jpg" width="180"> <img src="images/005-client-perks/3.jpg" width="180"> <img src="images/005-client-perks/4.jpg" width="180">
 
-> Your last Friday spot, taken by someone you have never met.
+> Your regulars should not find out about mini sessions at the same time as everyone else.
 > 
-> Turn on bookings by request and every booking waits for your answer. Nothing is booked or charged until you approve, and you can decline with a note if it is not a fit.
+> Put them in a client group and give that group perks on any event: book further ahead than everyone else, book closer to the start, skip approval on a request-only event, or pay offline. They unlock them on your booking page with their email. No account needed.
 > 
 > Hand the admin to your booking page. Link in bio: schedulign.com
 > 
-> #schedulign #tutor #tutoringbusiness #privatetutor #bookingpage
+> #schedulign #photographybusiness #minisessions #photographer #bookingpage
 
 ## 12. DM to book: the fourteen-message haircut
 
@@ -189,7 +191,21 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #hairstylist #salonowner #behindthechair #bookingpage
 
-## 13. Waitlists: a freed time, held for them
+## 13. Requests: say yes before it is booked
+
+`006-requests` · Feature spotlight
+
+<img src="images/006-requests/1.jpg" width="180"> <img src="images/006-requests/2.jpg" width="180"> <img src="images/006-requests/3.jpg" width="180"> <img src="images/006-requests/4.jpg" width="180">
+
+> Your last Friday spot, taken by someone you have never met.
+> 
+> Turn on bookings by request and every booking waits for your answer. Nothing is booked or charged until you approve, and you can decline with a note if it is not a fit.
+> 
+> Hand the admin to your booking page. Link in bio: schedulign.com
+> 
+> #schedulign #tutor #tutoringbusiness #privatetutor #bookingpage
+
+## 14. Waitlists: a freed time, held for them
 
 `007-waitlist` · Feature spotlight
 
@@ -202,17 +218,3 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > Hand the admin to your booking page. Link in bio: schedulign.com
 > 
 > #schedulign #hairstylist #salonowner #behindthechair #bookingpage
-
-## 14. Access details: the gate code comes with the booking
-
-`008-access-details` · Feature spotlight
-
-<img src="images/008-access-details/1.jpg" width="180"> <img src="images/008-access-details/2.jpg" width="180"> <img src="images/008-access-details/3.jpg" width="180"> <img src="images/008-access-details/4.jpg" width="180">
-
-> Gate code? Garage? Side door? At 7am, you should not have to text to find out.
-> 
-> When clients give the location, they type where to meet and any access details as they book, and you can add a note saying what you need. The address and the details come with the booking.
-> 
-> Hand the admin to your booking page. Link in bio: schedulign.com
-> 
-> #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
