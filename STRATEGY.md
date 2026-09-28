@@ -4,7 +4,7 @@ Rules for what gets posted. The weekly job (ROUTINE.md) follows this file, and s
 
 ## The brand brief (Sam's answers, Sep 28 2026)
 
-This section wins over anything below that disagrees with it.
+The full description, from eight rounds of Sam's answers, is **brand/BRAND-BOOK.md**: the company, the customer, pains and fears, positioning, messaging, voice with examples, Slot, the visual identity, the truth rules and channels. It wins over everything here. This section is its short form.
 
 | | |
 |---|---|

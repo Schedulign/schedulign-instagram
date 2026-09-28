@@ -4,7 +4,7 @@ A scheduled Claude session runs this every Monday morning. It keeps the queue ab
 
 ## Steps
 
-1. **Read** STRATEGY.md (the rules), `art/engine.mjs` (what can be drawn), two or three recent files in `content/posts` (the house style), and `published.json` (what has gone out).
+1. **Read** brand/BRAND-BOOK.md (who Schedulign is, the audience, the voice; it wins over anything older), STRATEGY.md (the rules), `art/engine.mjs` (what can be drawn), two or three recent files in `content/posts` (the house style), and `published.json` (what has gone out).
 2. **Count the runway.** Posts in `posts.json` that are not published and not on hold. If there are 10 or more, skip to step 6.
 3. **Pick the next posts** until the runway is 14, keeping every series stocked (UPNEXT.md lists what is waiting per series): at least 3 spotlights, 2 under-the-hood posts, 2 episodes and 1 before/after or tip waiting at all times. The weekly pattern in `lib/series.mjs` decides the order, so just keep the series full. Episodes stand alone, show no numbers of any kind (no episode, part or day counts), and carry their run's `badge`; when a run has had about five episodes, start the next run from the list in STRATEGY.md. No feature covered in the last six weeks, and never the same character three posts in a row. Take ideas from the lists in STRATEGY.md first.
 4. **Check the facts.** For each post, open its help article at `https://www.schedulign.com/help/<slug>` and read it. Use the product's labels exactly as the article gives them. If the article does not clearly say the product does something, drop the idea.
