@@ -51,11 +51,13 @@ function room({lamps=[200],wall,floorY=392,win:w=null,day=false}={}){
   lamps.forEach(x=>s+=day?lamp(x).replace('#fff3d6','#e8e2d2'):lamp(x));
   return s;
 }
+const bird=(x,y,s=1)=>`<path d="M${x-7*s},${y} Q${x-3*s},${y-5*s} ${x},${y} Q${x+3*s},${y-5*s} ${x+7*s},${y}" stroke="#3a3f5e" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".5"/>`;
 function outdoor(sky){
   const id='o'+(++uid);
   const g=sky==='golden'?['#4d5690','#f0a877']:sky==='day'?['#6fa9e6','#d9eefa']:['#232b55','#c98a86'];
   let s=`<defs><linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${g[0]}"/><stop offset=".62" stop-color="${g[1]}"/></linearGradient></defs><rect width="400" height="500" fill="url(#${id})"/>`;
-  if(sky==='day') s+=`<circle cx="330" cy="70" r="46" fill="#fff3c4" opacity=".35"/><circle cx="330" cy="70" r="28" fill="#fff3c4"/>`+[[70,80,1],[190,50,.8],[250,130,.7]].map(([a,b,k])=>`<g transform="translate(${a},${b}) scale(${k})" fill="#fff" opacity=".9"><ellipse cx="0" cy="0" rx="34" ry="13"/><ellipse cx="-14" cy="-9" rx="16" ry="12"/><ellipse cx="12" cy="-12" rx="18" ry="14"/></g>`).join('');
+  if(sky==='day') s+=`<circle cx="330" cy="70" r="46" fill="#fff3c4" opacity=".35"/><circle cx="330" cy="70" r="28" fill="#fff3c4"/>`+[[70,80,1],[190,50,.8],[250,130,.7]].map(([a,b,k])=>`<g transform="translate(${a},${b}) scale(${k})" fill="#fff" opacity=".9"><ellipse cx="0" cy="0" rx="34" ry="13"/><ellipse cx="-14" cy="-9" rx="16" ry="12"/><ellipse cx="12" cy="-12" rx="18" ry="14"/></g>`).join('')
+    +bird(44,26)+bird(132,44,.8)+bird(270,20,.85);
   if(sky==='dusk') [[40,40],[120,110],[300,150],[360,60],[210,30]].forEach(([a,b])=>s+=`<circle cx="${a}" cy="${b}" r="1.5" fill="#fff" opacity=".7"/>`);
   return s;
 }
