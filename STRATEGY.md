@@ -8,7 +8,7 @@ The full description, from eight rounds of Sam's answers, is **brand/BRAND-BOOK.
 
 | | |
 |---|---|
-| **Who first** | Solo pros, led by **fitness and wellness**: personal trainers, yoga and pilates teachers, massage therapists, therapists. Everyone else stays welcome, and the rest of the cast keeps appearing, but most posts speak to them. |
+| **Who first** | Solo pros, led by **fitness and wellness**: personal trainers, massage therapists, therapists and other wellness pros who work by appointment (appointments, not classes: classes are out of scope). Everyone else stays welcome, and the rest of the cast keeps appearing, but most posts speak to them. |
 | **The one takeaway** | **It takes the admin off me.** No back-and-forth, no chasing payments or waivers; the page handles it. |
 | **Voice** | Warm, friendly and playful. The humor is about the **situation** (DM chaos, 11pm texting, the paper-waiver pile), never at a client's expense. |
 | **Tagline** | "The booking page that runs your business." |
@@ -21,7 +21,7 @@ The full description, from eight rounds of Sam's answers, is **brand/BRAND-BOOK.
 | **Goal** | Sign-ups. Every post points to the link in bio; measure link taps and new accounts. |
 | **Cadence** | Five posts a week, weekdays. TikTok is the next channel. |
 
-**Casting for this focus.** Dev (trainer) carries most fitness stories. Add a wellness regular to the cast (a massage therapist or yoga teacher, as a new preset in the engine) and give them the next episode run. Priority topics: waivers, no-shows and cancellation policies, reminders, getting paid (see the payments hold below), group sessions, early-morning regulars.
+**Casting for this focus.** Dev (trainer) carries most fitness stories. Add a wellness regular to the cast (a massage therapist, as a new preset in the engine) and give them the next episode run. Priority topics: waivers, no-shows and cancellation policies, reminders, getting paid, Google Calendar sync, early-morning regulars.
 
 ## Who it is for
 
@@ -36,7 +36,7 @@ People who sell their time: trainers, stylists, tutors, consultants, therapists,
 | Pillar | What it means for them | Proof points |
 |---|---|---|
 | **More than a time slot** | The details around a booking are built in, not bolted on: the place, the price, the paperwork. | Location choices incl. the client's own address and the exact place kept off the page until they book; access details; a price for every group size and length; peak and discount hours; waivers signed while booking. |
-| **Money is part of it** | Getting paid is part of the booking, on every plan. | Card at booking through their own Stripe, or the offline ways they already take (and Mark paid); per event; tips; a payment link after an approved request. The Free plan has everything in Pro (up to 5 bookings a week), and card payments carry only Stripe's fee, with nothing added by Schedulign (help/plans-and-billing). (Online-card posts wait for the Stripe confirmation above; offline and Mark paid can go now.) |
+| **Money is part of it** | Getting paid is part of the booking, on every plan. | Card at booking through their own Stripe, or the offline ways they already take (and Mark paid); per event; tips; a payment link after an approved request. The Free plan has everything in Pro (up to 5 bookings a week), and card payments carry only Stripe's fee, with nothing added by Schedulign (help/plans-and-billing). |
 | **A fuller calendar** | Cancellations and quiet hours get filled, regulars come first. | Day waitlists with a two-hour hold, openings alerts, unlisted-time requests, requests-only events, client perks, discount hours, reminders. |
 | **Simple and yours** | Easy for clients, controlled by you, no clutter. | No client accounts; clients change bookings from their link inside your windows; confirmation as a calendar invite; rules per event; blocking per event; a help center and a Report a problem link on every page. |
 
@@ -92,7 +92,7 @@ Under-the-hood ideas: what each email a client gets says and when, what happens 
 
 Calendly's feed is mostly static text graphics and talking-head reels. The themes are worth covering; the flat, story-driven art is where Schedulign does them better.
 
-- **Getting paid.** Calendly leads with invoicing: "getting paid should feel like the finish line". Schedulign's version: card payments at booking through the host's own Stripe account, or offline methods they already take, chosen per event; tips at checkout or afterwards; a payment link after an approved request; automatic or manual refunds. Held until Sam confirms a real host has connected Stripe and taken a card (then drop the hold line in the truth rules).
+- **Getting paid.** Calendly leads with invoicing: "getting paid should feel like the finish line". Schedulign's version: card payments at booking through the host's own Stripe account, or offline methods they already take, chosen per event; tips at checkout or afterwards; a payment link after an approved request; automatic or manual refunds. Cleared Sep 28 2026: a real host has taken a card.
 - **Reward regulars, fill slow weeks.** Calendly pushes coupon codes. Schedulign has client perks (done), discount windows in peak pricing (a negative percentage for quiet hours), and discount codes through Stripe at checkout (with payments).
 - **Where clients already are.** Your link in your Instagram bio (very on-theme for this account), a QR code for the van, the salon mirror or a flyer, the booking widget on your own website.
 - **Protect your time.** "More space for what matters": days off and date-specific hours, buffers, evenings with no "are you free" texts, a real holiday while the page keeps booking the weeks after.
@@ -109,7 +109,7 @@ Spotlights still to make (not yet in the queue): your link in your Instagram bio
 - **Every claim names its help article** in `claims`, and the article must be live at `https://www.schedulign.com/help/<slug>`. Read the article before writing the post. If the help center does not say the product does it, the post does not say so either.
 - Never "coach" or "coaching". The product never says "we", "our" or "us". No exclamation marks.
 - No promises about the future: no launch date, no feature that is "coming", no price except Pro at $20 a month and $10 per member seat, and "every plan is $0 during early access".
-- Held back until they are ready: Google Calendar sync and Google Meet (the Google app is not verified yet), online card payments (confirm a real host can connect Stripe first), SMS (it does not exist).
+- Cleared Sep 28 2026: Google Calendar sync and Google Meet (Google verified the app) and online card payments (a real host has taken a card). Still never mentioned: SMS, packages, memberships, a client app (none exist). Classes are out of scope.
 
 ## Voice
 
