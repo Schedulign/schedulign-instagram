@@ -1,26 +1,12 @@
 # Up next
 
-One post each weekday, about 11:20am Pacific, in this order. 2 of 23 posted so far.
+One post each weekday, about 11:20am Pacific, in this order. 3 of 23 posted so far.
 
-Waiting, by series: Intro:2 · Spotlights:11 · Under the hood:2 · Episodes:2 · Before/after and tips:4.
+Waiting, by series: Intro:1 · Spotlights:11 · Under the hood:2 · Episodes:2 · Before/after and tips:4.
 
 To stop a post, set `hold: true` in its file under `content/posts`, or delete the file.
 
-## 1. Meet the regulars
-
-`017-meet-the-cast` · Meet Schedulign
-
-<img src="images/017-meet-the-cast/1.jpg" width="180"> <img src="images/017-meet-the-cast/2.jpg" width="180"> <img src="images/017-meet-the-cast/3.jpg" width="180"> <img src="images/017-meet-the-cast/4.jpg" width="180"> <img src="images/017-meet-the-cast/5.jpg" width="180"> <img src="images/017-meet-the-cast/6.jpg" width="180">
-
-> Meet the regulars you will see around here.
-> 
-> Maya cuts hair. Jonah details cars in your driveway. Dev trains people before most people are awake. Rosa tutors math and never runs out of pencils. Priya photographs families and chases golden hour. Each of them sells their time, and Slot, the booking page, keeps the calendar.
-> 
-> Swipe to say hi. Who is most like you?
-> 
-> #schedulign #smallbusinessowner #selfemployed #solopreneur #bookingpage
-
-## 2. Booking a time is the easy part
+## 1. Booking a time is the easy part
 
 `022-more-than-a-time` · Meet Schedulign
 
@@ -36,7 +22,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #bookingpage #smallbusinessowner #selfemployed #solopreneur
 
-## 3. Waivers: signed before they book
+## 2. Waivers: signed before they book
 
 `000-waivers` · Feature spotlight
 
@@ -50,7 +36,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #personaltrainer #fitnessbusiness #gymowner #bookingpage
 
-## 4. Under the hood: when someone cancels
+## 3. Under the hood: when someone cancels
 
 `018-hood-waitlist` · Under the hood
 
@@ -69,7 +55,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #bookingpage #waitlist #smallbusinesstips #selfemployed
 
-## 5. Jonah’s first month: the first booking
+## 4. Jonah’s first month: the first booking
 
 `020-jonah-first-booking` · Jonah’s first month
 
@@ -85,7 +71,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #mobiledetailing #newbusiness #smallbusinessjourney #bookingpage
 
-## 6. Getting paid: paid when they book
+## 5. Getting paid: paid when they book
 
 `001-getting-paid` · Feature spotlight
 
@@ -101,7 +87,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #personaltrainer #fitnessbusiness #smallbusinesstips #bookingpage
 
-## 7. Tip: what a no-show really costs
+## 6. Tip: what a no-show really costs
 
 `000-no-show-math` · Before/after and tips
 
@@ -117,7 +103,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #personaltrainer #fitnessbusiness #smallbusinesstips #selfemployed
 
-## 8. Location: every house is the blue one
+## 7. Location: every house is the blue one
 
 `001-location` · Feature spotlight
 
@@ -131,7 +117,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
 
-## 9. Under the hood: which times clients see
+## 8. Under the hood: which times clients see
 
 `019-hood-which-times-show` · Under the hood
 
@@ -147,7 +133,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #bookingpage #scheduling #smallbusinesstips #selfemployed
 
-## 10. Jonah’s first month: the rainy Tuesday
+## 9. Jonah’s first month: the rainy Tuesday
 
 `021-jonah-rain` · Jonah’s first month
 
@@ -163,7 +149,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
 
-## 11. Client perks: regulars first
+## 10. Client perks: regulars first
 
 `005-client-perks` · Feature spotlight
 
@@ -177,7 +163,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #photographybusiness #minisessions #photographer #bookingpage
 
-## 12. DM to book: the fourteen-message haircut
+## 11. DM to book: the fourteen-message haircut
 
 `002-dm-to-book` · Before/after and tips
 
@@ -191,7 +177,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #hairstylist #salonowner #behindthechair #bookingpage
 
-## 13. Requests: say yes before it is booked
+## 12. Requests: say yes before it is booked
 
 `006-requests` · Feature spotlight
 
@@ -205,7 +191,7 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > 
 > #schedulign #tutor #tutoringbusiness #privatetutor #bookingpage
 
-## 14. Waitlists: a freed time, held for them
+## 13. Waitlists: a freed time, held for them
 
 `007-waitlist` · Feature spotlight
 
@@ -218,3 +204,17 @@ To stop a post, set `hold: true` in its file under `content/posts`, or delete th
 > Hand the admin to your booking page. Link in bio: schedulign.com
 > 
 > #schedulign #hairstylist #salonowner #behindthechair #bookingpage
+
+## 14. Access details: the gate code comes with the booking
+
+`008-access-details` · Feature spotlight
+
+<img src="images/008-access-details/1.jpg" width="180"> <img src="images/008-access-details/2.jpg" width="180"> <img src="images/008-access-details/3.jpg" width="180"> <img src="images/008-access-details/4.jpg" width="180">
+
+> Gate code? Garage? Side door? At 7am, you should not have to text to find out.
+> 
+> When clients give the location, they type where to meet and any access details as they book, and you can add a note saying what you need. The address and the details come with the booking.
+> 
+> Hand the admin to your booking page. Link in bio: schedulign.com
+> 
+> #schedulign #mobiledetailing #autodetailing #mobilebusiness #bookingpage
