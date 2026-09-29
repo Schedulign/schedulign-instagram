@@ -8,7 +8,7 @@ The full description, from eight rounds of Sam's answers, is **brand/BRAND-BOOK.
 
 | | |
 |---|---|
-| **Who first** | Solo pros, led by **fitness and wellness**: personal trainers, massage therapists, therapists and other wellness pros who work by appointment (appointments, not classes: classes are out of scope). Everyone else stays welcome, and the rest of the cast keeps appearing, but most posts speak to them. |
+| **Who first** | Solo pros, led by **fitness and wellness**: personal trainers, massage therapists, therapists and other wellness pros who work by appointment (appointments, not classes: classes are out of scope). Everyone else stays welcome, and other professions keep appearing, but most posts speak to them. |
 | **The one takeaway** | **It takes the admin off me.** No back-and-forth, no chasing payments or waivers; the page handles it. |
 | **Voice** | Warm, friendly and playful. The humor is about the **situation** (DM chaos, 11pm texting, the paper-waiver pile), never at a client's expense. |
 | **Tagline** | "The booking page that runs your business." |
@@ -16,12 +16,12 @@ The full description, from eight rounds of Sam's answers, is **brand/BRAND-BOOK.
 | **The doubt to answer** | "My clients just text me, DMs work fine." Answer it with the hidden cost of the back-and-forth, never by mocking the habit. |
 | **Words** | Clients book **sessions**. Never name another product. |
 | **Price** | Value first. Posts lead with the problem solved; free comes up lightly or not at all. |
-| **Slot** | An occasional narrator: Slot fronts intros and some tips ("Hi, I'm Slot…"); the freelancers lead the stories. |
+| **Slot** | The only named character. Slot says hello ("Hi, I'm Slot…") and appears whenever the booking page does the work; the freelancers lead the stories, unnamed. |
 | **Off-limits** | Health or results claims (Schedulign books the time; it promises no outcome), and body or weight themes (no before/after bodies, no weight-loss jokes). |
 | **Goal** | Sign-ups. Every post points to the link in bio; measure link taps and new accounts. |
 | **Cadence** | Five posts a week, weekdays. TikTok is the next channel. |
 
-**Casting for this focus.** Dev (trainer) carries most fitness stories. Add a wellness regular to the cast (a massage therapist, as a new preset in the engine) and give them the next episode run. Priority topics: waivers, no-shows and cancellation policies, reminders, getting paid, Google Calendar sync, early-morning regulars.
+**Faces for this focus.** The trainer (`DEV` preset) carries most fitness stories. Add a massage therapist as a new preset in the engine and give them the next few stories. Priority topics: waivers, no-shows and cancellation policies, reminders, getting paid, Google Calendar sync, early-morning regulars.
 
 ## Who it is for
 
@@ -52,57 +52,52 @@ People who sell their time: trainers, stylists, tutors, consultants, therapists,
 Friendly cartoon scenes drawn in code (`art/engine.mjs`). The reference is the Instagram account buildwithorin.
 
 - **One short line per slide**, big and white with a dark outline, readable in the grid. The long explanation goes in the caption.
-- **A small story across the slides**, usually with a time stamp: the problem, the fix, the client's side, how it ends.
+- **A before and an after across the slides**, usually with a time stamp: the problem, the fix, the client's side, how it ends.
 - **Scenes happen when the story does.** Daylight for daytime (salons, driveways, gyms, parks, after-school tutoring). Lamplight only for early mornings and late nights.
 - **Lime means the booking page is at work**: a lime button, a lime check, or **Slot**, the lime calendar character. Lime is never used for anything else.
 - **Phone screens use the product's real labels**, checked against the help center. They are simplified, never invented.
 
-## The cast
+## The faces: same people, never named
 
-| Character | Profession | Look |
+Sam, Sep 28 2026: the feed restarted without a cast. The same drawn people come back from post to post, so the feed feels familiar, but **nobody is named or introduced**: not on a slide, not in a caption, not in alt text. They are "a trainer", "a stylist", "your client". Lint refuses the old cast names.
+
+| Preset (engine) | Profession | Look |
 |---|---|---|
-| Maya | Stylist | Bun, coral top, navy apron, scissors |
-| Jonah | Mobile detailer | Teal cap with a water drop, yellow shirt, the SHINE van |
-| Dev | Trainer | Athletic, orange tank top, yellow headband, beard, towel, white sneakers |
-| Rosa | Tutor | Long auburn hair, glasses, periwinkle sweater, books |
-| Priya | Photographer | Dark ponytail, navy top, camera |
-| Slot | The booking page | Lime calendar tile with a navy top, binder rings, a smile |
+| `DEV` | Trainer | Athletic, orange tank top, yellow headband, beard, towel, white sneakers |
+| `MAYA` | Stylist | Bun, coral top, navy apron, scissors |
+| `JONAH` | Mobile detailer | Teal cap with a water drop, yellow shirt, the SHINE van |
+| `ROSA` | Tutor | Long auburn hair, glasses, periwinkle sweater, books |
+| `PRIYA` | Photographer | Dark ponytail, navy top, camera |
+| `slot()` | The booking page | Lime calendar tile with a navy top, binder rings, a smile. The only one with a name. |
 
-Clients are drawn from the `CLIENT1` to `CLIENT4`, `KID` and `STUDENT` presets in the engine. Keep each person's look the same from post to post. A new cast member needs a preset in the engine first.
+Clients are drawn from the `CLIENT1` to `CLIENT4`, `KID` and `STUDENT` presets. Keep each person's look the same from post to post. A new profession needs a preset in the engine first. Preset names are code, never copy.
 
-## What gets posted: series that run side by side
+## What gets posted: standalone stories
 
-Every post belongs to a series (`series:` in its file; `lib/series.mjs`). The series run at the same time, so the feed mixes them, and none of them ties the others down.
+Two kinds of post (`series:` in its file; `lib/series.mjs`):
 
-| Series | Badge on slide 1 | What it is |
+| Kind | Badge on slide 1 | What it is |
 |---|---|---|
-| **Intro** (`intro`) | Meet Schedulign | What Schedulign is, how a booking works, the cast. Always goes out before everything else waiting; the first three are pinned on the profile. Add a fresh intro now and then for new followers. |
-| **Spotlights** (`spotlight`) | Feature spotlight | A real problem, the feature that fixes it, what the client sees, the happy ending. The backbone of the feed and Sam's favourite. |
-| **Under the hood** (`hood`) | Under the hood | How something actually works, step by step, drawn as a diagram (`titleCard`, `diagramBg`, `flowCard`, `timeChip`). Every step comes from the help center. |
-| **Episodes** (`episode`) | The run's name, e.g. "Jonah's first month" | A standalone moment from a recurring character's work that quietly uses a feature. No numbers anywhere, on the slides or in the caption: no "Part 2", "Episode 3", "Day 1" or "2/5", so nobody feels they have to go back and catch up (lint rejects them). Any episode can be held, skipped or reordered without leaving a story hanging. A run is a handful of episodes; then start a new run with another character. |
-| **Before/after and tips** (`everyday`) | none | The messy way booking happens today vs a link, and saveable advice with a number slide. |
+| **Hello** (`hello`) | none | A short hello from Slot: who it is, what it takes off your plate. Goes out first and is pinned. A fresh one now and then for new followers. |
+| **Story** (`story`) | The feature, from the title up to its colon ("Waivers: …" → WAIVERS) | **One feature as a before and an after.** Slide 1 is the before (the DM thread, the no-show, the lost waiver), then the feature as the host sets it, then what the client sees, then the after. Four or five slides. |
 
-The posting order comes from a weekly pattern, not the file numbers: Mon spotlight, Tue under the hood, Wed episode, Thu spotlight, Fri before/after or tip (no posts at the weekend). When a series has nothing waiting, the next one fills its day (spotlight, then everyday, under the hood, episode). File numbers only order posts within a series.
+Every story stands alone. It never refers to another post, never continues a situation, and never counts itself ("Part 2", "Episode 3"), so any story can be held, skipped or reordered. The posting order is the file number; a hello always goes first.
 
-Episode runs to come, after "Jonah's first month": Maya going out on her own, Rosa's exam season, Priya's busiest fall, Dev's 6am regulars.
+### Themes to keep hitting
 
-Under-the-hood ideas: what each email a client gets says and when, what happens to a booking when it is rescheduled, how a request moves from asked to approved (or expired), how peak windows change a price, how client perks unlock with an email.
-
-### Themes to keep hitting (from a look at Calendly's feed, Sep 24 2026)
-
-Calendly's feed is mostly static text graphics and talking-head reels. The themes are worth covering; the flat, story-driven art is where Schedulign does them better.
+From a look at Calendly's feed (Sep 24 2026): Calendly's feed is mostly static text graphics and talking-head reels. The themes are worth covering; the flat, story-driven art is where Schedulign does them better.
 
 - **Getting paid.** Calendly leads with invoicing: "getting paid should feel like the finish line". Schedulign's version: card payments at booking through the host's own Stripe account, or offline methods they already take, chosen per event; tips at checkout or afterwards; a payment link after an approved request; automatic or manual refunds. Cleared Sep 28 2026: a real host has taken a card.
 - **Reward regulars, fill slow weeks.** Calendly pushes coupon codes. Schedulign has client perks (done), discount windows in peak pricing (a negative percentage for quiet hours), and discount codes through Stripe at checkout (with payments).
 - **Where clients already are.** Your link in your Instagram bio (very on-theme for this account), a QR code for the van, the salon mirror or a flyer, the booking widget on your own website.
 - **Protect your time.** "More space for what matters": days off and date-specific hours, buffers, evenings with no "are you free" texts, a real holiday while the page keeps booking the weeks after.
-- **Seasons and moments.** Tie posts to the calendar a week or two ahead: back to school and exam season (Rosa), holiday party season (Maya), wedding and fall mini-session season (Priya), New Year gym rush (Dev), first snow and pollen season (Jonah).
+- **Seasons and moments.** Tie posts to the calendar a week or two ahead: back to school and exam season (tutoring), holiday party season (hair), wedding and fall mini-session season (photos), the New Year gym rush (training), first snow and pollen season (detailing).
 - **Talk with people.** End about one caption in four with a question that invites a comment ("How do clients book you today: DMs, texts or a link?"). Keep it light and specific; never bait.
-- **No real people, for now** (Sam, Sep 24 2026). Calendly's best posts feature real customers; this feed stays simple and animated, and the cast carries it.
+- **No real people, for now** (Sam, Sep 24 2026). Calendly's best posts feature real customers; this feed stays simple and animated, and the drawn faces carry it.
 
 What to avoid, also from Calendly's comments: several people pushing back on AI features they did not ask for, and support questions left unanswered under posts. Lead with simple and human, never with AI, and never claim what the product does not do. Comments asking for help get pointed to schedulign.com/help or admin@schedulign.com (Sam or whoever runs the account replies; the automation never does).
 
-Spotlights still to make (not yet in the queue): your link in your Instagram bio, a QR code on the van or the mirror, the booking widget on your own site, tips, the follow-up email with a book-again link, hiding an event from the page and sharing a direct link, access codes for private events, blocking a client, date-specific hours, booking notice and how far ahead clients can book, pay online or pay at the session per event, lengths without prices. Team features wait until the solo product is the focus of the feed. Before writing any of them, check the feature against its help article (below).
+Stories still to make (not yet in the queue): your link in your Instagram bio, a QR code on the van or the mirror, the booking widget on your own site, tips, the follow-up email with a book-again link, hiding an event from the page and sharing a direct link, access codes for private events, blocking a client, date-specific hours, booking notice and how far ahead clients can book, pay online or pay at the session per event, lengths without prices. Team features wait until the solo product is the focus of the feed. Before writing any of them, check the feature against its help article (below).
 
 ## Truth rules (enforced by `lib/lint.mjs`)
 
@@ -119,8 +114,8 @@ Second person, plain and warm. Short sentences. A little wry, never snarky about
 
 - First line: the hook, unique across the whole queue (the publisher uses it to spot duplicates).
 - Then two to four short paragraphs: the feature in plain words.
-- Then the call to action (`${CTA}` in the post file) on spotlights and before/afters. Tips end with "Save this for…" instead.
-- Five hashtags: `#schedulign`, two or three for the profession, and `#bookingpage` or a tip tag.
+- Then the call to action (`${CTA}` in the post file).
+- Five hashtags: `#schedulign`, two or three for the profession, and `#bookingpage`.
 
 ## Cadence
 
@@ -128,4 +123,4 @@ Five posts a week, Monday to Friday, at about 11:20am Pacific. The weekly job ke
 
 ## Measuring (once there is an account)
 
-Weekly, from Instagram Insights: profile visits and link taps (the numbers that matter before launch), saves and shares per post (which format is useful), and reach from non-followers. After four weeks, keep the two formats with the most saves and shares per post and cut the weakest one. Schedulign does not track where sign-ups come from, so quote no conversion rate.
+Weekly, from Instagram Insights: profile visits and link taps (the numbers that matter before launch), saves and shares per post (which format is useful), and reach from non-followers. After four weeks, look at which features and professions get the most saves and shares per post, and make more of those. Schedulign does not track where sign-ups come from, so quote no conversion rate.

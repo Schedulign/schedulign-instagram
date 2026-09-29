@@ -79,8 +79,7 @@ for (const p of posts) {
 await browser.close();
 await writeFile(cachePath, JSON.stringify(cache, null, 1) + '\n');
 
-// The publisher's queue, in posting order (lib/series.mjs interleaves the
-// series). The publisher reads id, title, caption, media and hold.
+// The publisher's queue, in posting order (lib/series.mjs). The publisher reads id, title, caption, media and hold.
 const statePath = path.join(ROOT, 'published.json');
 const state = existsSync(statePath) ? JSON.parse(await readFile(statePath, 'utf8')) : {};
 const queue = orderQueue(posts, state).map((p) => ({

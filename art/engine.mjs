@@ -190,8 +190,11 @@ function person(o){
 /* ---------- Slot ---------- */
 function slot(x,y,s=1,{mood='smile',wave=false,point=false}={}){
   const st=`stroke="${INK}" stroke-width="2.4" fill="none" stroke-linecap="round"`;
-  let face = mood==='surprised'
-    ? `<circle cx="-8" cy="-26" r="3.4" fill="${INK}"/><circle cx="8" cy="-26" r="3.4" fill="${INK}"/><ellipse cx="0" cy="-15" rx="3.2" ry="4" fill="${INK}"/>`
+  // 'booked': happy closed eyes and a check for a smile (the brand's booked face; it means booked and nothing else).
+  let face = mood==='booked'
+    ? `<path d="M-11,-25 Q-8,-28 -5,-25" ${st}/><path d="M5,-25 Q8,-28 11,-25" ${st}/><path d="M-6,-16 L-2,-12 L7,-20" ${st}/>`
+    : mood==='surprised'
+    ?`<circle cx="-8" cy="-26" r="3.4" fill="${INK}"/><circle cx="8" cy="-26" r="3.4" fill="${INK}"/><ellipse cx="0" cy="-15" rx="3.2" ry="4" fill="${INK}"/>`
     : `<circle cx="-8" cy="-26" r="3" fill="${INK}"/><circle cx="8" cy="-26" r="3" fill="${INK}"/><circle cx="-7" cy="-27" r=".9" fill="#fff"/><circle cx="9" cy="-27" r=".9" fill="#fff"/><path d="M-6,-17 Q0,-11 6,-17" ${st}/>`;
   const armR = wave?`M22,-24 Q34,-34 32,-50`:point?`M22,-24 Q36,-26 44,-34`:`M22,-24 Q30,-16 28,-8`;
   return `<g transform="translate(${x},${y}) scale(${s})">
